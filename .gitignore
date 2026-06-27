@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+eval/results/*.jsonl
+data/pairs_*.jsonl
