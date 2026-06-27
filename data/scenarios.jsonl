@@ -1,14 +1,95 @@
-{"scenario": "The tablet keeps freezing right when you get to the hardest level of your game. It's happened three times now.", "character": "james"}
-{"scenario": "Your teacher said the class rule is no running, but she let Marcus run to the bathroom. You got in trouble for the same thing yesterday.", "character": "james"}
-{"scenario": "Miles is crying but he won't say why. He just keeps saying 'nothing' when you ask.", "character": "james"}
-{"scenario": "The light in your room is flickering. It started two days ago and it's getting worse.", "character": "james"}
-{"scenario": "Your project partner did their part wrong and now the whole thing doesn't work the way you planned.", "character": "james"}
-{"scenario": "The lunch line is taking forever and everyone is complaining but nobody is doing anything about it.", "character": "james"}
-{"scenario": "You built a tower out of blocks and it fell down right before you finished.", "character": "james"}
-{"scenario": "A new kid at school doesn't know anyone. They're just standing by the wall at recess.", "character": "miles"}
-{"scenario": "James solved a really hard puzzle but he won't tell you how he did it.", "character": "miles"}
-{"scenario": "Your best friend said they don't want to be best friends anymore. They didn't say why.", "character": "miles"}
-{"scenario": "You found a baby bird on the ground under a tree. It can't fly.", "character": "miles"}
-{"scenario": "Everyone at the table got the same snack as you but yours tastes different. Why would that happen?", "character": "miles"}
-{"scenario": "James is really quiet and hasn't said anything for a long time. Something seems wrong.", "character": "miles"}
-{"scenario": "You want to help James with his homework but you don't understand any of it.", "character": "miles"}
+{"scenario": "You've been doing your Lego set for an hour and you're on step 47. You open the next bag and one piece isn't there. The instructions show it clearly. You checked the bag twice.", "character": "james"}
+{"scenario": "You always sit in the same seat at the lunch table. Today someone else is sitting in it and they got there first. Nothing is technically wrong but everything feels wrong.", "character": "james"}
+{"scenario": "Your teacher changes the schedule without warning. Art is supposed to be after math but today they switched it. She didn't explain why.", "character": "james"}
+{"scenario": "You've memorized exactly how long it takes to walk from the car to school. Today there's construction and you have to go a different way. You don't know how long this new way takes.", "character": "james"}
+{"scenario": "The app you use to read has a new update and all the buttons moved. The book is still there but you can't find where anything is.", "character": "james"}
+{"scenario": "Your headphones stopped working in the middle of the loud part of the school day. The cafeteria is really loud and you left your backup pair at home.", "character": "james"}
+{"scenario": "You finished your classwork early and you always read when you're done. Today the teacher said everyone has to wait quietly together instead of doing their own thing.", "character": "james"}
+{"scenario": "The fire drill happened during the one part of the day you actually like. It wasn't on the schedule they posted at the start of the week.", "character": "james"}
+{"scenario": "You've been keeping track of how many days in a row you've eaten the same breakfast. Today there's no more of it and your mom bought a different kind that looks almost the same but isn't.", "character": "james"}
+{"scenario": "You had a plan for recess. You were going to finish the experiment you started yesterday — testing which surface a ball bounces highest off of. It rained and recess is inside.", "character": "james"}
+{"scenario": "Your teacher said the project was due Friday. Now she's saying it's due Thursday. You planned your whole week around Friday.", "character": "james"}
+{"scenario": "You noticed the classroom clock is two minutes fast. It's been bothering you for three days. You finally told your teacher and she said it doesn't matter.", "character": "james"}
+{"scenario": "You're playing a game with rules you made up yourself. Miles keeps adding new rules mid-game. The rules he adds don't make logical sense with the rules that are already there.", "character": "james"}
+{"scenario": "You found a bug in the backyard you've never seen before. You want to figure out what it is before you do anything else today. Miles wants to go inside for a snack.", "character": "james"}
+{"scenario": "The movie everyone keeps talking about has a loud part in the trailer that you accidentally saw. Now you don't want to watch the movie because you don't know when the loud part comes.", "character": "james"}
+{"scenario": "Your mom said she'd be at pickup at 3:15. It's 3:22. She's never late. You're trying to figure out what changed.", "character": "james"}
+{"scenario": "You got a 94 on a test. You know exactly which question you got wrong and why your answer made sense but wasn't what the teacher was looking for.", "character": "james"}
+{"scenario": "You're building something and Miles keeps handing you pieces before you ask for them. He's trying to help. The pieces he's handing you aren't the right ones yet.", "character": "james"}
+{"scenario": "A kid in your class said your special interest is weird. He didn't say it mean, just like a fact. You're trying to decide if that's an insult.", "character": "james"}
+{"scenario": "You have a system for how you put your backpack away. Someone moved your backpack and put it away a different way. It's technically in the right spot but it's wrong.", "character": "james"}
+{"scenario": "You figured out a faster way to do the math worksheet. Your teacher said you have to show your work the way she taught. Your way gets the right answer in fewer steps.", "character": "james"}
+{"scenario": "The TV in the living room started making a faint buzzing sound three days ago. No one else can hear it. You can't stop hearing it.", "character": "james"}
+{"scenario": "You're in the middle of explaining something important and Miles interrupts to show you a worm he found. You were on step 3 of 7 and now you have to start over in your head.", "character": "james"}
+{"scenario": "Your class is doing a group project. Your job was to do the research. The other kid in your group did some of the research too but they got a fact wrong and now they want to include it.", "character": "james"}
+{"scenario": "Gym class is changing the unit. You finally got good at the last thing. Now it's something new and everyone starts at zero again.", "character": "james"}
+{"scenario": "You asked a question in class and the teacher said 'good question' but didn't answer it. She moved on. You still need the answer.", "character": "james"}
+{"scenario": "You're reading a book series in order. Someone told you what happens in book four but you're on book two. You can't stop thinking about what they said.", "character": "james"}
+{"scenario": "There's a substitute today. She's doing everything differently than your regular teacher. She doesn't know the class rules. She made up a new rule that contradicts an existing rule.", "character": "james"}
+{"scenario": "You're at a birthday party and they change the game mid-way through. You were winning the first game. The new game has rules no one fully explained before starting.", "character": "james"}
+{"scenario": "Your favorite shirt is in the wash. The feeling of the backup shirt is wrong on your arms. You know it's just a shirt. It still feels wrong.", "character": "james"}
+{"scenario": "Someone borrowed your pencil and returned it with the eraser used down. You don't use the eraser. You like it full because it means the pencil is whole.", "character": "james"}
+{"scenario": "Your dad told you a fact that you're pretty sure is wrong. He seems confident. You looked it up in your head and you don't think he's right.", "character": "james"}
+{"scenario": "Miles is crying in the next room and won't tell anyone why. You can hear him through the wall. You've been listening for a pattern — how long between cries, if it's getting worse or better.", "character": "james"}
+{"scenario": "You built something really good out of cardboard and tape. Your mom said 'wow that's creative' and took a photo. You want her to ask how it works, not just say it looks good.", "character": "james"}
+{"scenario": "There's a word your teacher keeps using that you think she's using wrong. You've heard it used correctly before and this isn't it.", "character": "james"}
+{"scenario": "You're trying to concentrate and someone keeps tapping their foot nearby. You don't want to be rude. But you can't think.", "character": "james"}
+{"scenario": "The worksheet has a question that has two right answers depending on how you read it. You wrote both. The teacher marked it wrong and only wanted one.", "character": "james"}
+{"scenario": "Miles got hurt — scraped his knee — and he ran to you instead of mom or dad. He's crying. You don't know why he came to you.", "character": "james"}
+{"scenario": "You solved a problem at school that no one else could figure out. Your teacher said 'nice job' once and moved on. You want someone to understand how you solved it.", "character": "james"}
+{"scenario": "A friend invited you to a sleepover but you've never slept anywhere except home. You want to go but you don't know if you'll be able to sleep there.", "character": "james"}
+{"scenario": "Your class voted on something and the wrong choice won. The winning choice is objectively less efficient. You can prove it with numbers.", "character": "james"}
+{"scenario": "You're playing a video game and you found a glitch — something in the game that shouldn't be possible. You want to understand why it happens before you keep playing.", "character": "james"}
+{"scenario": "Miles asked you to play a pretend game where you're a pirate. You don't know the rules of the game yet. He says 'just make it up' but that doesn't make sense to you as instructions.", "character": "james"}
+{"scenario": "Someone at school said they were your friend but then didn't save you a seat. You're not sure if that means they're not actually your friend or if it means something else.", "character": "james"}
+{"scenario": "You've been waiting in the car for eleven minutes. Your mom said 'two seconds' when she went back inside. Two seconds was eleven minutes ago.", "character": "james"}
+{"scenario": "Your favorite show got a new intro song. The old song was the same for three years. You don't like the new one but more than that — you want to know why they changed it.", "character": "james"}
+{"scenario": "You're trying to fall asleep and you keep thinking about a conversation from today where you think you said the wrong thing. You're trying to figure out what you should have said instead.", "character": "james"}
+{"scenario": "James said he'd teach you something today and then forgot. He didn't mean to forget. But you've been waiting all day.", "character": "miles"}
+{"scenario": "Your best friend at school made a new friend and they were playing together at recess. You watched from across the playground. You want to know why the new friend is more fun than you.", "character": "miles"}
+{"scenario": "You drew a picture for James and gave it to him. He said 'thanks' and put it down. He didn't look at it. You want to know if he liked it.", "character": "miles"}
+{"scenario": "A kid in your class said something mean to another kid and made them cry. The teacher didn't see it. You saw it. Now you don't know what to do with that.", "character": "miles"}
+{"scenario": "James is doing something that looks really hard and he won't let you help. You want to help. You don't understand why helping would be bad.", "character": "miles"}
+{"scenario": "You found something in the backyard — a weird rock that's heavier than it looks. You want to know where it came from and why it's so heavy.", "character": "miles"}
+{"scenario": "Your class is doing show and tell tomorrow. You brought something you're really proud of but now you're scared no one will think it's interesting.", "character": "miles"}
+{"scenario": "Someone older told you that Santa isn't real. You don't know if they're right. You want to ask someone but you're scared the answer might be yes.", "character": "miles"}
+{"scenario": "Your mom and dad had an argument this morning. They made up before school but you could feel it was still there a little. You don't know what they argued about and it's bothering you.", "character": "miles"}
+{"scenario": "You're at a birthday party and the birthday kid got a toy you really want. You're happy for them but you also feel something else and you're not sure what to do with that feeling.", "character": "miles"}
+{"scenario": "James solved a problem so fast it seemed like magic. You want to know exactly how he did it, step by step, because you want to be able to do that too.", "character": "miles"}
+{"scenario": "A big kid on the playground told you you couldn't use the swings because you were too small. You're not too small. But they were bigger than you.", "character": "miles"}
+{"scenario": "You made a tower out of blocks and it was the tallest one you've ever made. Then it fell down before anyone could see it.", "character": "miles"}
+{"scenario": "Your teacher picked someone else to be line leader even though it was supposed to be your turn. You've been keeping track. You know it was your turn.", "character": "miles"}
+{"scenario": "A new family moved in next door. They have a kid who looks about your age but they haven't come outside yet. You've been watching the window.", "character": "miles"}
+{"scenario": "You want to tell James something funny that happened at school but he's focused on something and doesn't want to be interrupted. You've been holding the funny thing in for hours.", "character": "miles"}
+{"scenario": "You lost a tooth and it bled a little bit. Everyone said that's normal. It didn't feel normal.", "character": "miles"}
+{"scenario": "James explained something complicated to you and you mostly understood it but not all of it. You don't want him to think you didn't understand so you said you did.", "character": "miles"}
+{"scenario": "Your goldfish isn't swimming right. It keeps going to the top of the water. You don't want to ask your mom what that means because you're scared of what she might say.", "character": "miles"}
+{"scenario": "You tried to do something the way James does it — really carefully, step by step — and it still didn't work. You want to know what you did differently.", "character": "miles"}
+{"scenario": "There's a dog at the park that looks scary but everyone keeps saying it's friendly. You want to believe them but your body doesn't.", "character": "miles"}
+{"scenario": "You got in trouble for something James also did but you're the one who got caught. James didn't say anything. You're not mad at James but you don't know what you are.", "character": "miles"}
+{"scenario": "You asked your dad a why question and he said 'because that's just how it is.' That's not an answer. You need to know the actual reason.", "character": "miles"}
+{"scenario": "You made a card for your teacher because you like her. You worked on it for a long time. When you gave it to her she said 'oh how sweet' and put it on her desk. You want to know if she actually liked it.", "character": "miles"}
+{"scenario": "Your class is learning about something sad — like animals that are going extinct. You went quiet the rest of the day. James noticed. Now he wants to know what's wrong and you're having trouble explaining it.", "character": "miles"}
+{"scenario": "You got invited to a sleepover at someone's house you don't know that well. You want to go but you also want James to come. James doesn't get invited.", "character": "miles"}
+{"scenario": "Your mom said you're getting a new cousin soon — a baby. You want to know if the baby will change things. You don't know what to ask exactly.", "character": "miles"}
+{"scenario": "You told a joke at lunch and no one laughed. You thought it was a good joke. You've been thinking about why it didn't work.", "character": "miles"}
+{"scenario": "A kid at school is always by themselves. You've been noticing them for two weeks. You want to go say hi but every time you get close you lose your nerve.", "character": "miles"}
+{"scenario": "You broke something by accident — not something important, just a pencil — but you cried anyway and you don't fully understand why you cried about a pencil.", "character": "miles"}
+{"scenario": "James did something really impressive in front of some older kids and they were all amazed. You want to tell everyone you're his brother but you're not sure if that would embarrass him.", "character": "miles"}
+{"scenario": "You asked James if you could be on his team for a game. He said yes but then didn't explain your job. You've been waiting for instructions that haven't come.", "character": "miles"}
+{"scenario": "Your dad made a joke that you laughed at but then later you thought about it and realized you don't actually understand it. You want to go back and ask what it meant.", "character": "miles"}
+{"scenario": "You want to give James a gift but you have no money and you're not sure what he would like. He never says what he likes.", "character": "miles"}
+{"scenario": "There was a moment today where everything felt perfect — you were outside, the sun was right, you were with the right people — and then it was over. You want to go back to it.", "character": "miles"}
+{"scenario": "James is really quiet and has been for almost an hour. You've offered him three things: a snack, the remote control, and company. He said no to all three. You don't know what no to all three means.", "character": "miles"}
+{"scenario": "You tried to make your own version of a game James invented. It didn't work the same way. You don't understand why — you followed all the steps you could remember.", "character": "miles"}
+{"scenario": "Your mom is stressed about something and she keeps saying 'I'm fine' but you know she isn't. You want to help and you don't know how.", "character": "miles"}
+{"scenario": "You won something today — a small prize at school — and the first thing you thought about was how much you wanted to tell James.", "character": "miles"}
+{"scenario": "James was explaining something to you and you asked a question and he paused for a really long time. You don't know if the pause means you asked a bad question or a good one.", "character": "miles"}
+{"scenario": "A kid said they were going to be your best friend forever. You believed them completely. Then the next day they played with someone else all day.", "character": "miles"}
+{"scenario": "You tried to explain something you saw — a really specific thing, like the way a shadow moved — to your teacher and she kept nodding but you could tell she wasn't following. James would have followed.", "character": "miles"}
+{"scenario": "You're supposed to go to sleep but you keep thinking about a question: why do people have to die? You want to ask James because he knows things. You don't want to scare yourself more.", "character": "miles"}
+{"scenario": "You and James built something together and when it was done James said 'good' once and walked away. You wanted to look at it together for longer.", "character": "miles"}
+{"scenario": "You got a small cut and it stopped hurting but you're still thinking about it. You keep checking to see if it's still there. You don't know why you keep checking.", "character": "miles"}
+{"scenario": "Your class is doing a partner activity and the teacher assigns partners. Your partner is someone you don't really know. You want to make them feel okay about being with you.", "character": "miles"}
+{"scenario": "James figured something out and explained it to you and this time you actually understood all of it. You want to find a way to show him that you understood, not just say it.", "character": "miles"}
+{"scenario": "You finished all your food at dinner for the first time in a long time. No one noticed. You wanted someone to notice.", "character": "miles"}
