@@ -1,11 +1,11 @@
-# Open Character Training: Superpowers
+# MOSAIC — Open Character Training: Superpowers
 
-A system for creating research-grounded child characters (ages 0-17) for animation and interactive media, built on a replication of [Open Character Training](https://arxiv.org/abs/2411.00027).
+**MOSAIC** is an open-source character engine built to represent the full, complex range of humanity: a system for creating research-grounded child characters (ages 0-17) for animation and interactive media, built on a replication of [Open Character Training](https://arxiv.org/abs/2411.00027). A project of [The Kes Foundation](https://thekesfoundation.org/#/superpowers).
 
 One core asset, two products:
 
-1. **Character Bible Generator** — describe a child in a sentence ("a second-generation Ghanaian American eldest daughter of three," "a 5-year-old Dominican kid from Mott Haven with ADHD") and get a complete character bible: appearance sheet, behavioral constitution, voice guide, scenario seeds, and evaluation criteria. Bibles are consumed by human animators and writers, and compile into consistency prompts for AI video tools.
-2. **Trained interactive characters** — a bible's constitution feeds the DPO pipeline (via Tinker) to train a model that responds live as the character, for games, voice, and interactive apps.
+1. **Character Bible Generator.** Describe a child in a sentence ("a second-generation Ghanaian American eldest daughter of three," "a 5-year-old Dominican kid from Mott Haven with ADHD") and get a complete character bible: appearance sheet, behavioral constitution, voice guide, scenario seeds, and evaluation criteria. Bibles are consumed by human animators and writers, and compile into consistency prompts for AI video tools.
+2. **Trained interactive characters.** A bible's constitution feeds the DPO pipeline (via Tinker) to train a model that responds live as the character, for games, voice, and interactive apps.
 
 ## Architecture
 
@@ -28,17 +28,17 @@ scripts/generate_pairs.py  (optional) DPO pairs → Tinker training → evaluate
 
 ## Characters
 
-**James** (hand-written baseline) — 8 years old, autistic, solves problems by finding the underlying pattern. Speaks directly. Gets frustrated when routines break but recovers through logic, not reassurance.
+**James** (hand-written baseline): 8 years old, autistic, solves problems by finding the underlying pattern. Speaks directly. Gets frustrated when routines break but recovers through logic, not reassurance.
 
-**Miles** (hand-written baseline) — 5 years old, James's younger brother. Asks why before how. Celebrates others first. Uses physical action to express emotion. Connector and champion.
+**Miles** (hand-written baseline): 5 years old, James's younger brother. Asks why before how. Celebrates others first. Uses physical action to express emotion. Connector and champion.
 
-**Abena** (pilot, composed) — 12 years old, second-generation Ghanaian American in Columbus, eldest daughter of three. Receptive bilingual in Twi. Meets her responsibilities with dry competence and keeps a private ledger of what they cost her.
+**Abena** (pilot, composed): 12 years old, second-generation Ghanaian American in Columbus, eldest daughter of three. Receptive bilingual in Twi. Meets her responsibilities with dry competence and keeps a private ledger of what they cost her.
 
-**Mateo** (pilot, composed) — 5 years old, Dominican American in Mott Haven, the Bronx. Spanish at home, Spanglish at school. ADHD, hyperactive-impulsive presentation, hyperfocuses on buses. Raised by his mother and abuela.
+**Mateo** (pilot, composed): 5 years old, Dominican American in Mott Haven, the Bronx. Spanish at home, Spanglish at school. ADHD, hyperactive-impulsive presentation, hyperfocuses on buses. Raised by his mother and abuela.
 
 ## Why This Matters
 
-Constitutional character training is a path to representation that doesn't depend on demographic data already existing in pretraining corpora. Any community can define their own archetype and generate or train characters that embody it with specificity and dignity. The hand-written characters set the quality bar; the composed characters test whether the system can meet it.
+Constitutional character training is a path to representation that doesn't depend on demographic data already existing in pretraining corpora. Any community can define their own archetype and generate or train characters that embody it with specificity and dignity. Authentic representation is a documented learning outcome variable, not a values statement (Dyches, Carter & Prater, 2006). The hand-written characters set the quality bar; the composed characters test whether the system can meet it.
 
 ## Representation Policy
 
@@ -52,16 +52,16 @@ Constitutional character training is a path to representation that doesn't depen
 
 Following the Open Character Training paper:
 
-1. **Constitution writing** — hand-written (James, Miles) or composed (`compose_bible.py`)
-2. **DPO pair generation** — strong model with constitution (positive) vs. without (negative)
-3. **DPO training** — fine-tune base model on pairs using Tinker
-4. **Self-reflection distillation** — generate in-character synthetic data, SFT to bake persona in
-5. **Evaluation** — judge model scores outputs against gold set on per-trait dimensions
+1. **Constitution writing**: hand-written (James, Miles) or composed (`compose_bible.py`)
+2. **DPO pair generation**: strong model with constitution (positive) vs. without (negative)
+3. **DPO training**: fine-tune base model on pairs using Tinker
+4. **Self-reflection distillation**: generate in-character synthetic data, SFT to bake persona in
+5. **Evaluation**: judge model scores outputs against gold set on per-trait dimensions
 
 ## Repo Structure
 
 ```
-constitutions/     # Hand-written character constitutions (James, Miles) — quality baseline
+constitutions/     # Hand-written character constitutions (James, Miles), the quality baseline
 knowledge/         # Research-backed dimension files with citations
 specs/             # Character specs (schema.json + one JSON per character)
 bibles/            # Composed character bibles + appearance sheets
@@ -73,7 +73,7 @@ notebooks/         # Analysis, charts, side-by-side comparisons
 
 ## Results
 
-_In progress — 10-week research timeline starting July 2026._
+_In progress. 10-week research timeline starting July 2026._
 
 ## Dataset
 
@@ -83,4 +83,4 @@ All generated scenario pairs will be released publicly under CC BY 4.0. This is 
 
 - [Open Character Training paper](https://arxiv.org/abs/2411.00027)
 - [Thinking Machines Lab — Tinker](https://thinkingmachines.ai)
-- [LoRA Without Regret](https://thinkingmachines.ai/blog/lora/) — hyperparameter guidance used in training
+- [LoRA Without Regret](https://thinkingmachines.ai/blog/lora/), hyperparameter guidance used in training
