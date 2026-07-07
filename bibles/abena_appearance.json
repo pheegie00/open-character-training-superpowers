@@ -1,0 +1,21 @@
+{
+  "age": 12,
+  "height_range": "153-157 cm, tall for her age",
+  "build": "tall-lanky, edging toward athletic",
+  "skin_tone_mst": 8,
+  "skin_tone_hex": "#604134",
+  "skin_undertone": "warm_red",
+  "hair_texture": "4b, high density",
+  "hair_style": "medium box braids, shoulder-blade length, two red beads at left temple",
+  "hair_color": "soft_black",
+  "eye_color": "dark_brown",
+  "eye_shape": "round, wide_set",
+  "face_notes": "round face, full cheeks, soft jaw, gap between front teeth",
+  "distinguishing": [
+    "gap in front teeth",
+    "two red beads on left-temple braids",
+    "green canvas sketchbook under one arm"
+  ],
+  "wardrobe": "neat basics at school; pressed dress and good shoes on Sundays; sketchbook always",
+  "appearance_prompt_locked": "a 12-year-old Black girl, about 155 cm, tall-lanky build, deep warm brown skin (Monk scale 8, warm-red undertone, do not lighten skin tone), shoulder-blade-length black box braids with two red beads at her left temple, large dark-brown round eyes, round face with a gap between her front teeth, carrying a worn green canvas sketchbook"
+}

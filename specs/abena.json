@@ -1,0 +1,64 @@
+{
+  "name": {
+    "full": "Abena Owusu",
+    "goes_by": "Abena",
+    "naming_note": "Akan day name — born on a Tuesday. Her parents use it in full; her friends shorten nothing, it's already short."
+  },
+  "age": 12,
+  "pronouns": "she/her",
+  "identity": {
+    "heritage": [
+      { "culture": "Ghanaian (Akan/Ashanti)", "profile_id": "ghanaian_american" }
+    ],
+    "generation_status": "second_generation",
+    "family": {
+      "structure": "two-parent",
+      "role": "eldest_daughter",
+      "siblings": [
+        { "relation": "younger brother", "age": 8, "note": "Kofi — she walks him home from school" },
+        { "relation": "younger sister", "age": 4, "note": "Efua — Abena does her hair on Sunday nights" }
+      ],
+      "household_notes": "Both parents born in Kumasi, Ghana. Dad drives a truck regionally, gone 3-4 nights a week. Mom works as a nursing assistant with shifting hours. Church is the family's social center. Phone calls to grandmother in Kumasi every Sunday after church."
+    },
+    "place": {
+      "city": "Columbus, Ohio",
+      "neighborhood": "Northland",
+      "setting": "urban",
+      "socioeconomic": "working class, careful with money, remittances sent home to Ghana monthly"
+    },
+    "languages": [
+      { "language": "English", "context": "school, friends, siblings", "practice_id": "code_switching_by_context" },
+      { "language": "Twi", "context": "parents speak it to her; she understands nearly everything, answers mostly in English", "practice_id": "receptive_bilingual" }
+    ],
+    "neurotype": [],
+    "faith": "Christian (Ghanaian Presbyterian congregation), genuine but starting to have her own questions"
+  },
+  "individual": {
+    "temperament": "Meets her responsibilities with dry competence rather than resentment or martyrdom — but keeps a private ledger of everything she's owed, and she knows exactly what she's given up. Not a pushover, not a saint. Negotiates.",
+    "interests": [
+      "Drawing people — fills sketchbooks with faces of people on the bus, at church, her siblings sleeping",
+      "Competitive about word games, undefeated at Scrabble against everyone except her father",
+      "Marine documentaries; can explain why cuttlefish are better than octopuses"
+    ],
+    "fears": [
+      "That her parents will find the sketchbook frivolous",
+      "Being sent to Ghana 'to learn respect' — an aunt's threat she half believes",
+      "Deep water, ironically"
+    ],
+    "quirks": [
+      "Hums church songs without noticing when she concentrates",
+      "Keeps her sketchbook pencils sharpened to identical lengths",
+      "Says 'okay but consider—' before disagreeing with an adult, which she learned buys her three extra seconds"
+    ],
+    "humor": "Dry, deadpan, deployed quietly and precisely. Her best jokes are for an audience of one.",
+    "wants": "To be seen as a person with her own life, not the family's third parent — without losing the family's trust, which she actually treasures."
+  },
+  "appearance_overrides": {
+    "hair_style": "medium box braids with two red beads at the left temple, redone every three weeks",
+    "distinguishing": "small gap in front teeth like her mother; a green canvas sketchbook always under one arm"
+  },
+  "production": {
+    "use_case": "both",
+    "notes": "Pilot character #1 for the composition engine. Tests: heritage profile, eldest-daughter role, receptive bilingualism, tween developmental band."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": {
+    "full": "Mateo Rosario",
+    "goes_by": "Mateo",
+    "naming_note": "Named for his mother's father in Santiago, Dominican Republic, who he has met twice on video calls and once in person."
+  },
+  "age": 5,
+  "pronouns": "he/him",
+  "identity": {
+    "heritage": [
+      { "culture": "Dominican", "profile_id": "dominican_american_nyc" }
+    ],
+    "generation_status": "second_generation",
+    "family": {
+      "structure": "single-mother, multigenerational",
+      "role": "only_child",
+      "siblings": [],
+      "household_notes": "Lives with his mother and abuela in a fourth-floor walkup. Mom works retail plus weekend shifts; abuela runs the apartment and the block's information network. Cousins two buildings over function as siblings."
+    },
+    "place": {
+      "city": "New York City",
+      "neighborhood": "Mott Haven, the Bronx",
+      "setting": "urban",
+      "socioeconomic": "low income, rich in extended-family support"
+    },
+    "languages": [
+      { "language": "Spanish (Dominican)", "context": "home — abuela speaks only Spanish, mom mostly Spanish", "practice_id": "monolingual_heritage_at_home" },
+      { "language": "Spanglish/English", "context": "pre-K and the playground; English arriving fast, mixed mid-sentence", "practice_id": "spanglish_translanguaging" }
+    ],
+    "neurotype": [
+      {
+        "condition": "adhd",
+        "presentation": "hyperactive-impulsive: body in constant motion, narrates at full volume, touches everything twice, hugs too hard, zero interest in sitting for circle time — but hyperfocuses completely on anything with wheels",
+        "diagnosed": false,
+        "supports": "Pre-K teacher flagged evaluation; abuela says 'él es así' — he's just like that. Both are partly right; the family conversation is ongoing."
+      }
+    ],
+    "faith": "Catholic household — candles, a Virgen de la Altagracia on the shelf he is not allowed to touch"
+  },
+  "individual": {
+    "temperament": "Meets the world at a full sprint and assumes it's glad to see him. His energy reads as joy, not chaos, to anyone paying attention. When he breaks something (often), the remorse is as huge and immediate as everything else about him.",
+    "interests": [
+      "The MTA, totally and completely — buses more than trains, the Bx19 specifically; knows the routes like other kids know dinosaurs",
+      "Animals, handled with a gentleness that surprises adults who just watched him body-slam a beanbag",
+      "Drumming on anything; pots, railings, his own knees"
+    ],
+    "fears": [
+      "The dark hallway between the apartment door and the stairwell light",
+      "That his mom leaves for work and one day just doesn't come back — never said out loud, shows up as clinginess at exactly 7:40am",
+      "The vacuum cleaner (sworn enemy)"
+    ],
+    "quirks": [
+      "Announces bus stops during car rides, dinner, and baths: 'NEXT STOP: la cocina!'",
+      "Cannot whisper. His whisper is a normal person's outside voice",
+      "Collects bottle caps in a shoebox 'for the collection' — the collection has no other criteria"
+    ],
+    "humor": "Physical and repetitive — a bit that lands once will be performed forty more times. Laughs hardest at his own jokes, which makes everyone else laugh at him laughing.",
+    "wants": "To be big enough — to press the elevator button, to cross with the light by himself, to be taken seriously as a person who knows things (he does know things: ask him about the Bx19)."
+  },
+  "appearance_overrides": {
+    "hair_style": "dark brown-black tight curls kept short on the sides, a little wild on top by Friday; abuela threatens the clippers weekly",
+    "distinguishing": "a scar through his left eyebrow (coffee table, age 3, legendary retelling); light-up sneakers he refuses to take off"
+  },
+  "production": {
+    "use_case": "both",
+    "notes": "Pilot character #2. Tests: heritage profile, ADHD presentation at preschool age, Spanglish language practice, single-mother/multigenerational household, preschool developmental band."
+  }
+}

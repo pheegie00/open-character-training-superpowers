@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Spec",
+  "description": "Input to the character bible composition engine. Identity fields determine the character's circumstances and are grounded in knowledge/ dimension files. Individual fields determine personality and are free parameters — never derived from identity.",
+  "type": "object",
+  "required": ["name", "age", "identity", "individual"],
+  "properties": {
+    "name": {
+      "type": "object",
+      "required": ["full", "goes_by"],
+      "properties": {
+        "full": { "type": "string" },
+        "goes_by": { "type": "string" },
+        "naming_note": { "type": "string", "description": "Cultural context of the name, if any (e.g. Akan day name)" }
+      }
+    },
+    "age": { "type": "integer", "minimum": 0, "maximum": 17 },
+    "pronouns": { "type": "string" },
+    "identity": {
+      "type": "object",
+      "description": "Circumstances. Each field should map to entries in knowledge/ dimension files.",
+      "properties": {
+        "heritage": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "culture": { "type": "string" },
+              "profile_id": { "type": "string", "description": "id in knowledge/diaspora_family.yaml heritage_profiles, if one exists" }
+            }
+          }
+        },
+        "generation_status": {
+          "type": "string",
+          "enum": ["first_generation", "one_point_five_generation", "second_generation", "third_plus_generation", "not_applicable"]
+        },
+        "family": {
+          "type": "object",
+          "properties": {
+            "structure": { "type": "string", "description": "e.g. two-parent, single-mother, multigenerational, foster" },
+            "role": { "type": "string", "description": "id in knowledge/diaspora_family.yaml family_roles, e.g. eldest_daughter" },
+            "siblings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "relation": { "type": "string" },
+                  "age": { "type": "integer" },
+                  "note": { "type": "string" }
+                }
+              }
+            },
+            "household_notes": { "type": "string" }
+          }
+        },
+        "place": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" },
+            "neighborhood": { "type": "string" },
+            "setting": { "type": "string", "enum": ["urban", "suburban", "small_town", "rural"] },
+            "socioeconomic": { "type": "string" }
+          }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "language": { "type": "string" },
+              "context": { "type": "string", "description": "where it's used: home, school, with siblings" },
+              "practice_id": { "type": "string", "description": "id in knowledge/diaspora_family.yaml language_practice" }
+            }
+          }
+        },
+        "neurotype": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "condition": { "type": "string", "description": "id in knowledge/neurotype.yaml conditions" },
+              "presentation": { "type": "string", "description": "which traits from the condition's repertoire this specific child expresses" },
+              "diagnosed": { "type": "boolean" },
+              "supports": { "type": "string" }
+            }
+          }
+        },
+        "faith": { "type": "string" },
+        "other": { "type": "string" }
+      }
+    },
+    "individual": {
+      "type": "object",
+      "description": "Personality. Free parameters, chosen or sampled independently of identity.",
+      "required": ["temperament"],
+      "properties": {
+        "temperament": { "type": "string", "description": "How this specific child meets their circumstances" },
+        "interests": { "type": "array", "items": { "type": "string" } },
+        "fears": { "type": "array", "items": { "type": "string" } },
+        "quirks": { "type": "array", "items": { "type": "string" } },
+        "humor": { "type": "string" },
+        "wants": { "type": "string", "description": "What the character wants, as a story engine" }
+      }
+    },
+    "appearance_overrides": {
+      "type": "object",
+      "description": "Optional. Explicit appearance choices; anything unset is drawn from ancestry distributions in knowledge/appearance.yaml.",
+      "additionalProperties": { "type": "string" }
+    },
+    "production": {
+      "type": "object",
+      "properties": {
+        "use_case": { "type": "string", "enum": ["animation_bible", "interactive_training", "both"] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

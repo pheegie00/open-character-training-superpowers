@@ -1,0 +1,21 @@
+{
+  "age": 5,
+  "height_range": "108-112 cm",
+  "build": "sturdy, compact",
+  "skin_tone_mst": 6,
+  "skin_tone_hex": "#a07e56",
+  "skin_undertone": "warm_golden",
+  "hair_texture": "3c, high density",
+  "hair_style": "short faded sides, springy curls on top, wilder by Friday",
+  "hair_color": "darkest_brown",
+  "eye_color": "dark_brown",
+  "eye_shape": "round, prominent",
+  "face_notes": "round baby cheeks, full lips, small scar through left eyebrow",
+  "distinguishing": [
+    "scar through left eyebrow",
+    "light-up sneakers",
+    "bus-themed shirt when available"
+  ],
+  "wardrobe": "shorts year-round if permitted, graphic tee (buses preferred), light-up sneakers non-negotiable",
+  "appearance_prompt_locked": "a 5-year-old Dominican American boy, about 110 cm, sturdy compact build, golden-brown skin (Monk scale 6, warm-golden undertone, do not lighten skin tone), short dark curly hair faded on the sides with springy 3c curls on top, large round dark-brown eyes, round cheeks, a small scar through his left eyebrow, wearing light-up sneakers"
+}
