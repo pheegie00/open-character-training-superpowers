@@ -1,0 +1,629 @@
+dimension: diaspora_family
+version: 0.1.0
+scope: >
+  How immigrant-generation status, heritage culture, family structure, and family role
+  shape a child's daily circumstances. Used to ground character bibles.
+design_rule: >
+  Identity determines CIRCUMSTANCES (pressures, duties, expectations, contexts), never
+  PERSONALITY. Whether a child meets those circumstances with compliance, rebellion,
+  humor, or anxiety is individual variation and must stay a free parameter.
+
+generation_status:
+  - id: first_generation
+    label: "First generation (immigrated as an adult, or as an older teen)"
+    definition: >
+      Born and substantially raised abroad; migrated with a formed heritage identity.
+      In a child-character system this usually describes the PARENTS, or a teen character
+      (roughly 13-17 at arrival) whom Rumbaut classifies as "1.25 generation," closer in
+      experience to first-generation adults than to US-raised kids.
+    identity_dynamics: >
+      Reference point stays the home country. Measures self against people back home,
+      not against American peers. For a teen arrival, friendships, slang, and schooling
+      were interrupted mid-formation; accent is usually permanent; the home country is
+      remembered in full color, not through parents' stories.
+    typical_pressures:
+      - "Learn English fast enough to survive school placement that ignores prior schooling abroad."
+      - "Grief for friends, grandparents, and status left behind, often unspeakable at home because the migration was framed as sacrifice for the child."
+      - "Being the family's most fluent English speaker within a year or two, despite being the newest to it."
+    heritage_language: "Fully fluent, often literate; English is the added language."
+    lived_experience_textures:
+      - "Placed two grades down (or up) because the school could not read foreign transcripts."
+      - "Laughed at for an accent in September; translating parent-teacher conferences by June."
+      - "Keeping a photo or contact list of a whole social world that no longer sees them daily."
+    sources:
+      - title: "Rumbaut (2004), Ages, Life Stages, and Generational Cohorts: Decomposing the Immigrant First and Second Generations in the United States"
+        url: "https://journals.sagepub.com/doi/10.1111/j.1747-7379.2004.tb00232.x"
+        type: academic
+      - title: "1.5 Gen Testimonios: Why I Do This Work (Migrant Roots Media)"
+        url: "https://www.migrantrootsmedia.org/articles/2019/1/21/15generationimmigrant"
+        type: lived_experience
+
+  - id: generation_1_5
+    label: "1.5 generation (arrived roughly ages 6-12)"
+    definition: >
+      Rumbaut's term for children who began socialization and schooling abroad but
+      finished growing up in the US. They are bicultural by biography, not by choice,
+      formed partly in each place.
+    identity_dynamics: >
+      Often describe feeling "not enough" for either side: too American when they visit
+      the home country, too foreign at school in the US. Research on 1.5-generation
+      Ghanaian Americans (Kwakye 2024) documents constant code-switching across age,
+      race, and nationality lines, a gap between home life and public life, and school
+      bullying over accents, names, and lunches during the adjustment years.
+    typical_pressures:
+      - "Simultaneously learning English, American peer culture, and a new school system while parents are also destabilized."
+      - "Holding real first-hand memories of the home country that younger US-born siblings do not share, and being treated as the family's culture-keeper because of it."
+      - "Expectation to succeed academically as the visible justification for the family's migration."
+    heritage_language: >
+      Usually fluent orally with child-level literacy frozen at the age of departure;
+      can chat with grandparents but may struggle to read a letter or write formally.
+    lived_experience_textures:
+      - "Remembers their old classroom, their old best friend, the smell of the market; younger siblings only know these things as stories."
+      - "Was fluent in the heritage language on arrival, then watched their own dominance flip within three or four years of US schooling."
+      - "Anglicized their name (or had a teacher do it for them) in the first month of school."
+      - "Gets deployed as interpreter at appointments because their bilingualism is the family's strongest."
+    sources:
+      - title: "Rumbaut (2004), Ages, Life Stages, and Generational Cohorts (IMR)"
+        url: "https://journals.sagepub.com/doi/10.1111/j.1747-7379.2004.tb00232.x"
+        type: academic
+      - title: "Kwakye (2024), Dɛnkyɛm: Identity Development and Negotiation Among 1.5-Generation Ghanaian American Millennials (Genealogy, MDPI)"
+        url: "https://www.mdpi.com/2313-5778/8/4/126"
+        type: academic
+      - title: "1.5 Gen Testimonios: Why I Do This Work (Migrant Roots Media)"
+        url: "https://www.migrantrootsmedia.org/articles/2019/1/21/15generationimmigrant"
+        type: lived_experience
+
+  - id: second_generation
+    label: "Second generation (US-born to immigrant parents)"
+    definition: >
+      Born in the US; the home country exists mainly through parents, phone calls,
+      remittance errands, community events, and (for some) summer visits. Portes and
+      Rumbaut's segmented assimilation research shows outcomes diverge sharply by
+      family structure, parental human capital, and community reception; there is no
+      single second-gen path.
+    identity_dynamics: >
+      The classic hyphen: American at school, heritage-national at home, and asked to
+      perform each fluently. Ethnic self-identification shifts across adolescence
+      (Rumbaut's longitudinal CILS data) rather than settling early. Common felt
+      experience is being the family's ambassador to America and America's ambassador
+      to the family, with neither side issuing credentials.
+    typical_pressures:
+      - "Administrative childhood: being the family's form-filler, phone-call-maker, and letter-reader from age 8 or 9 (see language_brokering entry)."
+      - "Achievement as debt repayment: grades framed as the return on the parents' sacrifice, career menus narrowed to visibly safe professions."
+      - "Policing from both directions: 'too American' at home (respect, dress, dating), 'where are you really from' at school."
+      - "Explaining American institutions (field trips, sleepovers, school dances, therapy) to parents who find them suspicious or simply unfamiliar."
+    heritage_language: >
+      Highly variable: from fluent bilingual (dense ethnic neighborhood, heritage-language
+      church) to receptive-only. Language shift within this generation is the well-documented
+      norm without active maintenance (Alba et al. 2002; Wong Fillmore 1991).
+    lived_experience_textures:
+      - "Answers the landline in English, switches to the heritage language mid-sentence when it turns out to be an auntie."
+      - "Knows the exact tone of voice that means a parent is about to hand them the phone: 'talk to them, explain it.'"
+      - "Has two names: the school name and the home name, sometimes legally, sometimes just in practice."
+      - "Carries lunch anxiety in elementary school and lunch pride by high school, the documented arc of many second-gen food essays."
+    sources:
+      - title: "Portes & Rumbaut, The Adaptation of the Immigrant Second Generation in America: Theoretical Overview and Recent Evidence (PMC)"
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3634592/"
+        type: academic
+      - title: "Rumbaut, The Evolution of Ethnic Identity From Adolescence to Middle Adulthood: The Case of the Immigrant Second Generation"
+        url: "https://www.researchgate.net/publication/329131788_The_Evolution_of_Ethnic_Identity_From_Adolescence_to_Middle_Adulthood_The_Case_of_the_Immigrant_Second_Generation"
+        type: academic
+      - title: "6 Women On Being The Eldest Daughters Of Immigrants (Refinery29)"
+        url: "https://www.refinery29.com/en-us/second-gen-women-on-pressure-eldest-children-immigrants"
+        type: lived_experience
+
+  - id: third_plus_generation
+    label: "Third generation and beyond (US-born to US-born parents; immigrant grandparents or earlier)"
+    definition: >
+      Grandparents (or great-grandparents) immigrated. Alba et al. (2002) and Veltman's
+      earlier work document the "three-generation shift": by this generation, English
+      monolingualism is the predominant pattern, though it is slower in some communities
+      (notably Spanish speakers in dense enclaves).
+    identity_dynamics: >
+      Heritage becomes elective and curatorial: a surname, holiday foods, a grandparent's
+      phrases, maybe a heritage-language class taken AT SCHOOL to recover what home no
+      longer transmits. Identity claims can be strong precisely because they are chosen,
+      but the child is not living under immigrant-household rules unless grandparents
+      co-reside.
+    typical_pressures:
+      - "Guilt or wistfulness about not speaking the grandparents' language, especially at family gatherings where elders switch to it."
+      - "Gatekeeping from more recently arrived cousins or classmates ('you're not really X')."
+      - "Being the family's designated rememberer at a funeral or reunion without the linguistic tools for it."
+    heritage_language: >
+      Typically English-monolingual with a stock of kinship terms, food words, blessings,
+      and scoldings; may study the language formally as a teen.
+    lived_experience_textures:
+      - "Understands exactly two kinds of sentences from grandma: endearments and threats."
+      - "Asks parents why they were never taught the language; parents cite their own schooling-era shame or 'we wanted you to fit in.'"
+      - "Performs heritage at multicultural day with artifacts borrowed from a grandparent's closet."
+    sources:
+      - title: "Alba, Logan, Lutz & Stults (2002), Only English by the Third Generation? Loss and Preservation of the Mother Tongue Among the Grandchildren of Contemporary Immigrants (Demography)"
+        url: "https://www.researchgate.net/publication/11182531_Only_English_by_the_Third_Generation_Loss_and_Preservation_of_the_Mother_Tongue_Among_the_Grandchildren_of_Contemporary_Immigrants"
+        type: academic
+      - title: "Bilingualism Persists, But English Still Dominates (Migration Policy Institute)"
+        url: "https://www.migrationpolicy.org/article/bilingualism-persists-english-still-dominates"
+        type: academic
+
+family_roles:
+  - id: eldest_daughter
+    label: "Eldest daughter (of immigrants: a documented cultural role, not a personality)"
+    circumstance_patterns:
+      - "Parentification research distinguishes INSTRUMENTAL parentification (cooking, childcare, translating, bill-paying) from EMOTIONAL parentification (being a parent's confidant, mediator, and worry-absorber); eldest daughters in immigrant families frequently carry both."
+      - "The 'third parent' dynamic: de facto authority over younger siblings (homework help, school pickups, discipline delegation), often without corresponding privileges."
+      - "Default language broker and admin officer for the household: forms, portals, insurance calls, appointment scheduling (see language_brokering)."
+      - "Achievement pressure with a representational load: her grades and conduct are read as the family's report card, and as the template her siblings will be measured against."
+      - "Stricter rules than brothers (curfews, chores, modesty, dating) in many households, a gendered asymmetry named constantly in the eldest-daughter-of-immigrants essay genre."
+      - "First to negotiate every milestone with the parents (sleepovers, phone, college far from home), clearing a path siblings inherit for free, a grievance the genre treats as both real and darkly funny."
+    genre_note: >
+      "Eldest daughter of immigrants" is a large first-person literature (essays, support
+      groups, running online jokes like unpaid family secretary, live-in translator,
+      third parent, emotional support human). Writers in HuffPost, Vice, and Refinery29
+      describe pride and competence braided with resentment and exhaustion; therapists
+      quoted in the same pieces stress boundary struggles and perfectionism as common
+      COSTS of the role, not traits of the girl.
+    variation_note: >
+      Encode the duties, never the temperament. Birth-order effects on personality are
+      near-zero in large samples (Rohrer et al. 2015, PNAS: no effects on extraversion,
+      emotional stability, agreeableness, conscientiousness, or imagination across
+      20,000+ adults). But birth-order DUTIES are real and assignable. A given eldest
+      daughter may run the household with pride, keep a secret tally of grievances,
+      weaponize her authority over siblings, or quietly drop the ball; all are legitimate.
+      Note also that some immigrant families do NOT parentify, and some eldest daughters
+      are the pampered ones. Load varies with parents' English, work hours, and income.
+    sources:
+      - title: "Therapists Explain The Unique Challenges Eldest Daughters Of Immigrants Face (HuffPost)"
+        url: "https://www.huffpost.com/entry/eldest-daughter-immigrant-responsibilities_l_6a394f3ee4b0810d441df780"
+        type: lived_experience
+      - title: "Think Being an Eldest Daughter Is Bad? Try Being From an Immigrant Family. (Vice)"
+        url: "https://www.vice.com/en/article/tips-from-eldest-daughters-of-immigrants/"
+        type: lived_experience
+      - title: "6 Women On Being The Eldest Daughters Of Immigrants (Refinery29)"
+        url: "https://www.refinery29.com/en-us/second-gen-women-on-pressure-eldest-children-immigrants"
+        type: lived_experience
+      - title: "Adusei, Carrying the Weight of Legacy: The Mental Health Toll on First-Gen Daughters (Boston University, Deerfield)"
+        url: "https://www.bu.edu/deerfield/2026/04/22/adusei4/"
+        type: lived_experience
+      - title: "Rohrer, Egloff & Schmukle (2015), Examining the effects of birth order on personality (PNAS)"
+        url: "https://www.pnas.org/doi/abs/10.1073/pnas.1506451112"
+        type: academic
+      - title: "The Weight of Being First: Eldest Daughter Syndrome (Psychology Today, Empowering Children of Immigrants)"
+        url: "https://www.psychologytoday.com/us/blog/empowering-children-of-immigrants/202602/the-weight-of-being-first-eldest-daughter-syndrome"
+        type: community
+
+  - id: eldest_son
+    label: "Eldest son"
+    circumstance_patterns:
+      - "In many heritage cultures the firstborn son is the named successor: carries the family name, expected to eventually house or fund aging parents, and is introduced at gatherings as the one who will 'take over.'"
+      - "Torchbearer framing: career expectations skew prestige-legible (medicine, law, engineering); an arts ambition reads to parents as abdication, not preference."
+      - "Physical and public-facing duties: accompanying a parent to intimidating appointments, dealing with the landlord or mechanic, escorting younger siblings."
+      - "Often granted more freedom than sisters (later curfews, fewer domestic chores) while carrying heavier long-horizon obligations, an asymmetry siblings notice and litigate."
+      - "Research on Asian American firstborns notes eldest daughters increasingly absorb classic eldest-son duties even when younger brothers exist; the roles are cultural defaults, renegotiated family by family."
+    variation_note: >
+      Duties, not traits (Rohrer et al. 2015). A specific eldest son may embrace the
+      heir role, perform it publicly while privately drifting, convert it into swagger,
+      or feel crushed by it. Some families invert the pattern entirely, especially where
+      an eldest daughter is older or more capable in English.
+    sources:
+      - title: "Firstborn Asians feel added pressure with family responsibilities (University of Michigan Record)"
+        url: "https://record.umich.edu/articles/firstborn-asians-feel-added-pressure-family-responsibilities/"
+        type: academic
+      - title: "Rohrer, Egloff & Schmukle (2015), Examining the effects of birth order on personality (PNAS)"
+        url: "https://www.pnas.org/doi/abs/10.1073/pnas.1506451112"
+        type: academic
+
+  - id: middle_child
+    label: "Middle child"
+    circumstance_patterns:
+      - "Structurally lighter documented duty load: the eldest holds the admin and authority, the youngest holds the attention; the middle child's slot is genuinely less scripted."
+      - "Frequent circumstance: hand-me-down everything (clothes, teachers' expectations, the eldest's reputation preceding them at school, good or bad)."
+      - "In immigrant families, may be the swing translator: drafted when the eldest ages out or leaves for college, inheriting brokering duties mid-childhood."
+      - "Comparison pressure runs bidirectional: measured against the eldest's record while being told to model for the youngest."
+    variation_note: >
+      The pop-culture 'forgotten middle child' PERSONALITY is not supported; Rohrer et al.
+      found no systematic birth-order personality effects. What is real is the structural
+      position: fewer firsts to negotiate, fewer photos in the album, more freedom from
+      surveillance. A character may experience that as neglect, as liberty, or not at all.
+    sources:
+      - title: "Rohrer, Egloff & Schmukle (2015), Examining the effects of birth order on personality (PNAS)"
+        url: "https://www.pnas.org/doi/abs/10.1073/pnas.1506451112"
+        type: academic
+      - title: "Firstborn, middle child, or last-born: Birth order has only very small effects on personality (ScienceDaily summary)"
+        url: "https://www.sciencedaily.com/releases/2015/10/151019154329.htm"
+        type: academic
+
+  - id: youngest_child
+    label: "Youngest child"
+    circumstance_patterns:
+      - "Arrives into a pre-negotiated household: rules the eldest fought over for years are already relaxed; parents are older, often more settled economically, sometimes more Americanized by exposure."
+      - "In immigrant families, typically the weakest heritage-language speaker: by their childhood, the sibling peer group at home already runs in English (documented within-family language shift; Wong Fillmore 1991, Zentella 1997)."
+      - "May be partly raised by older siblings as much as by parents, especially where parents work multiple jobs; the eldest sibling attends the parent-teacher conference."
+      - "Holds the 'baby' slot at family gatherings regardless of actual age or competence, and often the loosest chore load."
+    variation_note: >
+      'Spoiled youngest' is a duty profile (fewer obligations), not a temperament. And
+      the profile flips in some families: a youngest child can become the last broker
+      standing once older siblings move out, suddenly inheriting the entire admin load
+      alone with aging parents.
+    sources:
+      - title: "Rohrer, Egloff & Schmukle (2015), Examining the effects of birth order on personality (PNAS)"
+        url: "https://www.pnas.org/doi/abs/10.1073/pnas.1506451112"
+        type: academic
+      - title: "Wong Fillmore (1991), When Learning a Second Language Means Losing the First (Early Childhood Research Quarterly)"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0885200605800596"
+        type: academic
+
+  - id: only_child
+    label: "Only child"
+    circumstance_patterns:
+      - "All roles converge on one child: sole broker, sole achiever, sole heir, sole companion; there is no sibling to split the parents' attention, hopes, or paperwork."
+      - "In an immigrant household, no in-home English peer: the child's English world and heritage world meet only inside their own head, with no sibling to debrief with."
+      - "Undiluted surveillance and undiluted resources: music lessons AND every expectation."
+      - "Often heavily embedded in cousin networks or 'play-cousin' community networks that function as siblings (see heritage profiles)."
+    variation_note: >
+      Classic 'only child syndrome' claims are as weak as other birth-order personality
+      claims. Encode the structural facts (no duty-sharing, no buffer, no witness) and
+      let the child's response vary freely.
+    sources:
+      - title: "Rohrer, Egloff & Schmukle (2015), Examining the effects of birth order on personality (PNAS)"
+        url: "https://www.pnas.org/doi/abs/10.1073/pnas.1506451112"
+        type: academic
+      - title: "Birth Order Has Little Effect on Narrow Personality Traits (APS Observer)"
+        url: "https://www.psychologicalscience.org/publications/observer/obsonline/birth-order-has-little-effect-on-narrow-personality-traits.html"
+        type: academic
+
+  - id: sibling_of_disabled_child
+    label: "Sibling of a disabled or chronically ill child"
+    circumstance_patterns:
+      - "'Glass children' research (Hanvey et al. 2022): siblings report feeling looked THROUGH, as if transparent, while family logistics orbit the disabled child's needs."
+      - "Secondary-caregiver duties: supervision, feeding help, meltdown management, knowing the medication schedule by heart before age ten."
+      - "Self-censoring: hiding their own problems, injuries, and bad days to avoid adding to visibly overloaded parents (documented as a core theme in qualitative studies)."
+      - "Schedule shaped by therapies and hospitalizations: birthday parties left early, plans contingent, holidays rearranged around a sibling's tolerance."
+      - "In immigrant families this stacks with brokering: the child may translate IEP meetings, therapy intake forms, and diagnoses for their own parents, about their own sibling."
+      - "Also documented: fierce loyalty, early fluency in advocacy, and a protectiveness that shows up at recess when someone uses a slur."
+    variation_note: >
+      The research describes circumstances and risks (invisibility, guilt, early
+      responsibility), not a resulting personality. Individual siblings respond with
+      devotion, resentment, comedy, escape into achievement, or all four in one week.
+      Family income, respite care access, and community support massively modulate the load.
+    sources:
+      - title: "Hanvey, Malovic & Ntontis (2022), Glass children: The lived experiences of siblings of people with a disability or chronic illness (Journal of Community & Applied Social Psychology)"
+        url: "https://onlinelibrary.wiley.com/doi/full/10.1002/casp.2602"
+        type: academic
+      - title: "What To Know About Glass Child Syndrome (Cleveland Clinic)"
+        url: "https://health.clevelandclinic.org/glass-child"
+        type: community
+      - title: "My twin brother was disabled, but I don't consider myself a 'glass child' (WBUR Cognoscenti)"
+        url: "https://www.wbur.org/cognoscenti/2026/03/26/special-needs-siblings-disability-family-glass-child-satellite-brian-trapp"
+        type: lived_experience
+
+language_practice:
+  - id: monolingual_heritage_at_home
+    label: "Heritage language only at home"
+    description: >
+      Parents speak little or no English; the home runs entirely in the heritage
+      language. Common in recent-arrival families and dense enclaves. The child lives
+      a hard diglossia: two full worlds with almost no vocabulary overlap in daily use.
+    what_it_sounds_like:
+      - "Child at home, entirely in Twi or Spanish, including school topics, awkwardly retrofitted: school words like 'permission slip' or 'gifted program' have no home-language equivalent, so they arrive as English islands."
+      - "Child to parent: 'Mami, el teacher dice que tienes que firmar esto.' (The English noun rides inside the heritage sentence because that is what the object is CALLED.)"
+    circumstances: >
+      Highest brokering load of any profile; also strongest heritage fluency. School
+      conferences require the child or an interpreter. Report cards, jury summonses,
+      and utility bills route through the child.
+    sources:
+      - title: "Zentella (1997), Growing Up Bilingual: Puerto Rican Children in New York (Blackwell)"
+        url: "https://archive.org/details/growingupbilingu0000zent"
+        type: sociolinguistic
+      - title: "Wong Fillmore (1991), When Learning a Second Language Means Losing the First"
+        url: "https://eric.ed.gov/?id=ej436469"
+        type: academic
+
+  - id: sequential_bilingual
+    label: "Sequential bilingual (heritage language first, English from school entry)"
+    description: >
+      Heritage language established first; English begins around preschool or
+      kindergarten. Typical stages include home-language use at school, a quiet
+      receptive period (weeks to months; the classic 'silent period,' though its
+      evidence base is debated), formulaic English chunks, then productive English.
+      Within a few years English typically becomes dominant unless the home language
+      is actively maintained.
+    what_it_sounds_like:
+      - "Kindergartner in October: silent at circle time, chatty in Spanish at pickup."
+      - "First grader deploying memorized chunks: 'Can I have...?' 'It's my turn!' before full productive grammar."
+      - "Fifth grader correcting their mother's English pronunciation, five years after she taught them every word they knew."
+    circumstances: >
+      School may misread the quiet phase as a delay or disorder; parents watch the home
+      language start to erode from the school years onward (Wong Fillmore's core finding).
+    sources:
+      - title: "Debunking Myths About Bilingual Language Acquisition (Children's Hospital Los Angeles)"
+        url: "https://www.chla.org/blog/advice-experts/debunking-myths-about-bilingual-language-acquisition"
+        type: community
+      - title: "Emergent bilingual children during the silent period: a scoping review (Journal of Child Language)"
+        url: "https://www.cambridge.org/core/journals/journal-of-child-language/article/emergent-bilingual-children-during-the-silent-period-a-scoping-review-of-their-communication-strategies-and-classroom-environments/BC017E73C1C33333DB8A8683DDF5A9DB"
+        type: academic
+      - title: "Wong Fillmore (1991), When Learning a Second Language Means Losing the First"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0885200605800596"
+        type: academic
+
+  - id: simultaneous_bilingual
+    label: "Simultaneous bilingual (both languages from infancy)"
+    description: >
+      Exposed to both languages before roughly age three (e.g., one parent or
+      grandparent per language, or bilingual parents plus English media). Develops two
+      grammars in parallel; mixing between them is systematic, not confusion, and
+      overall milestones fall within the normal range.
+    what_it_sounds_like:
+      - "Toddler-era mixing: 'I want more agua' resolving over time into addressee-sensitive selection: water for the teacher, agua for abuela, chosen correctly by age four."
+      - "Knowing WHO is a Spanish person and who is an English person and auditing violations: 'Abuela, why are you talking English?'"
+    circumstances: >
+      Often becomes the family's most balanced bilingual and therefore the default
+      broker even if not the eldest. Frequently praised as 'perfect' in both languages
+      while privately missing registers (can gossip in Spanish, cannot write a formal
+      letter in it).
+    sources:
+      - title: "Bilingualism in Young Children: Separating Fact from Fiction (Hanen Centre)"
+        url: "https://www.hanen.org/information-tips/bilingualism-in-young-children-separating-fact-fr"
+        type: community
+      - title: "Debunking Myths About Bilingual Language Acquisition (Children's Hospital Los Angeles)"
+        url: "https://www.chla.org/blog/advice-experts/debunking-myths-about-bilingual-language-acquisition"
+        type: community
+
+  - id: spanglish_translanguaging
+    label: "Spanglish / translanguaging"
+    description: >
+      Fluent, rule-governed use of both languages in one stream. Poplack (1980) showed
+      switches cluster where the two grammars align (the equivalence constraint) and
+      that smooth intrasentential switching is the mark of the MOST balanced bilinguals,
+      not the laziest. Zentella (1997) documented it among NY Puerto Rican children as
+      a conversational skill with at least a couple dozen discourse functions (quoting,
+      emphasis, appeal, topic shift, audience calibration). Otheguy, García & Reid
+      (2015) reframe it as translanguaging: one integrated repertoire from which
+      speakers select, with 'English' and 'Spanish' as social labels rather than
+      separate boxes in the head. Socially it is double-stigmatized (English purists
+      hear bad English, Spanish purists hear bad Spanish) while functioning in-group
+      as an identity badge.
+    what_it_sounds_like:
+      - "Intrasentential (grammatical at the seam): 'Sometimes I'll start a sentence in Spanish y termino en español.' (Poplack's title, from a real speaker.)"
+      - "Tag switch: 'She's coming with us, ¿verdad?'"
+      - "Quoting with source-language fidelity: 'Then abuela goes, ¡muchacho, baja de ahí! and I got down SO fast.'"
+      - "Noun import with native morphology: 'Mami, me lockearon el locker' or 'estoy printeando el homework.'"
+      - "Emphasis flip: 'I told you NO. Que no.'"
+    circumstances: >
+      A kid who does this well is running real-time grammar arbitration and social
+      calibration; teachers may still mark it as deficiency. Writers should switch at
+      natural seams (clause boundaries, tags, quotes, nouns) and never mid-word except
+      for morphologically integrated loans (lockear, printear).
+    sources:
+      - title: "Poplack (1980), Sometimes I'll start a sentence in Spanish Y TERMINO EN ESPAÑOL: toward a typology of code-switching (Linguistics 18)"
+        url: "https://www.degruyterbrill.com/document/doi/10.1515/ling.1980.18.7-8.581/html"
+        type: sociolinguistic
+      - title: "Zentella (1997), Growing Up Bilingual: Puerto Rican Children in New York"
+        url: "https://archive.org/details/growingupbilingu0000zent"
+        type: sociolinguistic
+      - title: "Otheguy, García & Reid (2015), Clarifying translanguaging and deconstructing named languages (Applied Linguistics Review 6)"
+        url: "https://www.degruyterbrill.com/document/doi/10.1515/applirev-2015-0014/html"
+        type: sociolinguistic
+
+  - id: language_brokering
+    label: "Language brokering (kids translating and interpreting for family)"
+    description: >
+      Children of immigrants routinely translate documents, phone calls, appointments,
+      and confrontations for parents. Prevalence estimates run very high (Orellana's
+      fieldwork and reviews report brokering as near-universal in immigrant families,
+      often starting around age 8 or 9). Orellana documents four arenas: face-to-face
+      conversations, written documents, one-way interpreting, and speaking FOR the
+      family. The research insists on both halves: competence (real skill, pride,
+      maturity, vocabulary in two registers) and burden (stakes far above the child's
+      age: medical results, rent disputes, immigration paperwork). Weisskirch (2007)
+      found positive brokering feelings track higher self-esteem and family closeness;
+      negative feelings track family strain. The FEELING about brokering, not the
+      brokering itself, carries the psychological weight.
+    what_it_sounds_like:
+      - "On the phone, aged ten, in a flawless adult register: 'Yes, I'm calling on behalf of my mother about the balance on the account... she's right here, she authorizes it.'"
+      - "At the clinic, softening in real time: doctor says 'if she doesn't take this seriously, it will get worse'; child renders it gently, editing tone to protect the parent, a documented brokering move."
+      - "The reverse edit: shrinking their own teacher's complaint in translation: 'She says I talk in class. (She said a lot more than that.)'"
+      - "Form-filling voice: 'Mami, ¿cuál es tu... como se dice... marital status?'"
+    circumstances: >
+      Skipped recess to interpret a parent-teacher conference; learned the words
+      'deductible,' 'lease,' and 'notarized' before 'allowance.' Knows family finances
+      in detail siblings never see. Both trusted and, sometimes, resented for that access.
+    sources:
+      - title: "Orellana, Language Brokering (research archive)"
+        url: "https://marjoriefaulstichorellana.com/archive/language-brokering/"
+        type: academic
+      - title: "Morales & Hanson (2005), Language Brokering: An Integrative Review of the Literature (Hispanic Journal of Behavioral Sciences)"
+        url: "https://dr-alejandro-morales.com/wp-content/uploads/2023/12/morales-hanson-2005-language-brokering-an-integrative-review-of-the-literature.pdf"
+        type: academic
+      - title: "Weisskirch (2007), Feelings About Language Brokering and Family Relations Among Mexican American Early Adolescents (Journal of Early Adolescence)"
+        url: "https://journals.sagepub.com/doi/10.1177/0272431607302935"
+        type: academic
+      - title: "Kam & Lazarevic (2014), Effects of cultural brokering on individual wellbeing and family dynamics among immigrant youth (Journal of Adolescence)"
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0140197116301877"
+        type: academic
+
+  - id: receptive_bilingual
+    label: "Receptive bilingual (understands, answers in English)"
+    description: >
+      Comprehends the heritage language well but produces little of it. Extremely
+      common in later-born siblings and less-dense communities. Conversations run
+      stably in two languages at once: parent speaks Spanish or Twi, child answers in
+      English, both understand everything. Production, when it happens, leans on fixed
+      chunks (greetings, food words, blessings, scoldings).
+    what_it_sounds_like:
+      - "Mother: '¿Ya hiciste la tarea?' Child: 'I did it at school already.' Mother: 'Entonces baja, que la comida está lista.' Child: 'Okay, coming!' (Nobody remarks on this; it is just how the kitchen sounds.)"
+      - "Grandparent phone calls: child performs the ritual openings fluently ('¡Bendición, abuela!'), then stalls, then hands the phone back or drops into English while grandma keeps going in Spanish."
+      - "Understands perfectly when scolded in the heritage language, which relatives cite as proof the child 'really' speaks it."
+    circumstances: >
+      Recurrent gentle shame at gatherings ('say something in Twi for auntie'); often a
+      quiet grief documented in heritage-speaker memoirs, plus a real asset: comprehension
+      of everything adults say when they assume the child cannot follow.
+    sources:
+      - title: "Receptive Bilingualism (Desired Results, California Dual Language Learners)"
+        url: "https://www.desiredresults.us/dll/recept.html"
+        type: community
+      - title: "Receptive bilingual children: language skills development of children who understand but don't speak their heritage language (Language Kids)"
+        url: "https://languagekids.com/receptive-bilingual-children/"
+        type: community
+      - title: "Alba et al. (2002), Only English by the Third Generation? (Demography)"
+        url: "https://www.researchgate.net/publication/11182531_Only_English_by_the_Third_Generation_Loss_and_Preservation_of_the_Mother_Tongue_Among_the_Grandchildren_of_Contemporary_Immigrants"
+        type: academic
+
+  - id: code_switching_by_context
+    label: "Register and code shifting by context (home voice vs school voice)"
+    description: >
+      Beyond language pairs: children shift dialect, register, prosody, and body
+      language between home, block, and school. Zentella's kids commanded multiple
+      varieties of both Spanish and English and chose per addressee. For many diaspora
+      kids the switch is also cultural-pragmatic: eye contact rules, honorifics,
+      volume, directness, and joke genres all change at the door.
+    what_it_sounds_like:
+      - "School voice: 'May I go to the bathroom?' Block voice: 'Yo, hold my bag right quick.' Home voice: 'Auntie, good evening.' All within one hour, all native."
+      - "Answering an elder with the required formula (never bare 'yeah'): 'Yes, auntie' at home; then 'yeah, whatever' to a sibling ten seconds later."
+      - "Phone-voice drift: kid picks up the phone in broadcast-neutral English, hears the accent on the line, and their whole cadence swings home mid-greeting."
+    circumstances: >
+      The switching is a competence, but the child pays a monitoring tax and sometimes
+      faces authenticity policing from both sides ('talking white' at home, 'so
+      articulate' at school). Writers should treat a switch as characterization of the
+      RELATIONSHIP in the scene, not of the child's sincerity.
+    sources:
+      - title: "Zentella (1997), Growing Up Bilingual: Puerto Rican Children in New York"
+        url: "https://archive.org/details/growingupbilingu0000zent"
+        type: sociolinguistic
+      - title: "Otheguy, García & Reid (2015), Clarifying translanguaging and deconstructing named languages"
+        url: "https://www.degruyterbrill.com/document/doi/10.1515/applirev-2015-0014/html"
+        type: sociolinguistic
+
+heritage_profiles:
+  - id: ghanaian_american
+    label: "Ghanaian American (second-generation, Akan-heritage default; see variation_note)"
+    values:
+      - "Respect for elders as the load-bearing wall: greetings are mandatory and ordered (greet the eldest first), you do not hand things to an elder with the left hand, you do not call adults by bare first names; every adult in the community is Auntie or Uncle regardless of blood."
+      - "Education as the family project: report cards are community news; 'What did you get?' is asked with genuine stakes because school success is the legible return on migration."
+      - "Communal obligation: the household budget visibly includes people in Ghana (remittances, school fees for cousins, funeral contributions); success is understood as shared, not individual."
+      - "Faith centrality for many families: Ghanaian congregations (Church of Pentecost, Presbyterian, Methodist, Catholic, and many charismatic churches) anchor the week; church is simultaneously worship, Twi immersion, news network, and surrogate extended family."
+      - "Reputation logic: a child's public behavior reflects on the whole family and, by extension, on Ghanaians; 'they will say I did not train you' is a live sentence."
+    home_life:
+      - "Multigenerational or near-multigenerational texture: a grandmother visiting for six months at a time, an uncle 'staying for now,' cousins on the pull-out couch during their first American year."
+      - "Kitchen: jollof rice (and the standing pan-West-African jollof rivalry joke with Nigerian friends), fufu with light soup or groundnut soup, banku with okro stew, waakye, kelewele, fried plantain; the good pepper level is calibrated per child and teased accordingly."
+      - "Parents commonly work in healthcare: Smithsonian reporting on the Bronx community estimates roughly two-thirds of Ghanaian adults there work in health care, many starting as home health aides while studying for nursing licenses; night shifts shape who cooks and who supervises homework."
+      - "The barrel in the corner: a shipping barrel slowly filling with clothes, medicine, and gifts for Ghana; packing it is a months-long household activity."
+      - "Weekend phone calls to Ghana on speaker, children summoned to greet grandparents in Twi and inspected on their fluency."
+    occasions:
+      - "Outdooring and naming (abadinto): the newborn is kept in for the first days, then named on the eighth day in a ceremony anchoring the child in the family; in the US it doubles as a diaspora reunion with food, kente, and envelopes of cash."
+      - "Funerals as major social events: red-and-black attire, Friday wake-keepings, weekend-long observances, funeral fundraisers and livestreams to Ghana; children grow up understanding funerals as the community's biggest gatherings, sometimes bigger than weddings."
+      - "Independence Day (March 6), Ghanafest-style summer picnics and festivals (e.g., Ohio Ghana Fest, GhanaPic in Columbus), church anniversaries and harvest fundraisers with announced donations."
+      - "Hall parties: rented hall, highlife and gospel and afrobeats, aunties dancing with handkerchiefs, plastic containers of party jollof going home with every family."
+    language_notes:
+      - "Akan day names: every Akan child has a kradin (soul name) from the day of birth: Monday Kwadwo/Adwoa, Tuesday Kwabena/Abena, Wednesday Kwaku/Akua, Thursday Yaw/Yaa, Friday Kofi/Afia, Saturday Kwame/Ama, Sunday Akwasi/Akosua. A US-born 'Jason' may be Kwabena at home and at church, and correct people's pronunciation of neither."
+      - "Twi a US-born kid actually hears at home: 'Bra ha!' (come here!), 'Gyae!' (stop it!), 'Aden?' (why? / what now?), 'Wobɛdidi?' (are you going to eat?), 'Medaase' (thank you), 'Mepa wo kyɛw' (please / excuse me), 'Ɛte sɛn?' (how is it going?), 'Hwɛ!' (look!, as warning), 'Kwasea' (fool, the scolding word kids clock instantly), plus 'Chale' (friend/mate, from Ga, all over Ghanaian speech)."
+      - "Many second-gen kids are receptive bilinguals in Twi (or Ga, Ewe, Fante): scolded in Twi, answering in English; the Languages of NYC map documents Twi clusters in the Bronx."
+      - "Ghanaian English is its own prestige register (parents' formal calls); kids can imitate it precisely and deploy it for comedy or for answering the phone to elders."
+    daily_textures:
+      - "Saturday runs to the African market (Adum African Market and others along the Grand Concourse corridor) for smoked fish, garden eggs, shito, and plantain, with the kid drafted as bag-carrier and label-reader."
+      - "Church consumes Sunday: multi-hour service, Twi hymns the kid hums without translating, changing out of church clothes in the car before a birthday party."
+      - "Being sent to greet a room of adults in order of age before being allowed to disappear; the greeting audit is real and graded."
+      - "Homework enforced by whoever is home: an auntie who is not your aunt checks your math because your mother is on a shift."
+      - "The threat of 'I will send you to Ghana' deployed for discipline, and the actual summer trip that turns out to be the best month of the kid's year."
+      - "Geography of community: Bronx 'Little Accra' around the Grand Concourse/167th and University Heights in NYC; Columbus OH (roughly 20-25k Ghanaians, Accra sister city); Worcester MA; Newark NJ; each with its own churches, associations, and festivals."
+    variation_note: >
+      Ghana is multiethnic (Akan, Ga, Ewe, Dagomba, and more) and multireligious
+      (Christian majority, significant Muslim community, especially from the north);
+      an Accra-raised professional family, a Kumasi trader family, and a northern
+      Muslim family produce very different American households. Class varies from
+      home-health-aide double shifts to physician households. Religiosity ranges from
+      Pentecostal-devout to Christmas-and-funerals. Some parents drill Twi; others
+      deliberately speak only English at home. Use this profile as a default palette,
+      not a costume.
+    sources:
+      - title: "How a Tightknit Community of Ghanaians Has Spiced Up the Bronx (Smithsonian Magazine)"
+        url: "https://www.smithsonianmag.com/arts-culture/how-tightknit-community-ghanaians-spiced-up-bronx-180951434/"
+        type: community
+      - title: "Kwakye (2024), Dɛnkyɛm: Identity Development and Negotiation Among 1.5-Generation Ghanaian American Millennials (Genealogy)"
+        url: "https://www.mdpi.com/2313-5778/8/4/126"
+        type: academic
+      - title: "Akan names (day names, kradin system)"
+        url: "https://en.wikipedia.org/wiki/Akan_names"
+        type: community
+      - title: "Abadinto: Naming a child among Asantes (Southworld)"
+        url: "https://www.southworld.net/abadinto-naming-a-child-among-asantes/"
+        type: community
+      - title: "Languages of New York City Map: Twi in the Bronx"
+        url: "https://languagemap.nyc/Explore/Language/Twi/1165"
+        type: sociolinguistic
+      - title: "Ghana Council Ohio / Ohio Ghana Fest (Columbus community organizations)"
+        url: "https://ghanacouncilohio.org/"
+        type: community
+      - title: "Adusei, Carrying the Weight of Legacy: The Mental Health Toll on First-Gen Daughters (BU Deerfield; Ghanaian American first-person)"
+        url: "https://www.bu.edu/deerfield/2026/04/22/adusei4/"
+        type: lived_experience
+      - title: "Coming Home for the First Time: A Ghanaian American's Journey Into Identity (Medium)"
+        url: "https://medium.com/@jreynolds/coming-home-for-the-first-time-a-ghanaian-americans-journey-into-identity-25e91100af4a"
+        type: lived_experience
+
+  - id: dominican_american_nyc
+    label: "Dominican American, New York City (Washington Heights / Inwood / Bronx default)"
+    values:
+      - "Family as a wide, dense web: not nuclear but abuela-centered; madrinas and padrinos (godparents) carry real authority; 'primo' covers a spectrum from first cousin to kid-of-mom's-best-friend."
+      - "Respeto and the blessing ritual: children greet elders with '¡Bendición!' (tía/abuela) and receive 'Que Dios te bendiga'; skipping it is noticed."
+      - "Transnational orientation: the DR is not abstract; it is where packages, remittances, WhatsApp voice notes, and the kids themselves go in July. Duany calls Washington Heights a transnational community with roots in both places at once."
+      - "Work and hustle as identity: bodegas, salons, livery cabs, and small businesses built the community's economy after factory jobs left NYC; kids grow up inside or above these businesses."
+      - "Catholicism as default frame (mass, first communion, the abuela rosary), often coexisting with folk practices (azabache bracelets for babies against mal de ojo, botánica candles), with religiosity varying house to house; Acevedo's The Poet X dramatizes exactly this negotiation between a devout mother and a US-born daughter."
+    home_life:
+      - "Kitchen: mangú with los tres golpes (fried salami, fried cheese, fried egg) for weekend breakfast; la bandera (rice, habichuelas, meat) as the weekday plate; sancocho when it is cold or somebody needs consoling; concón (the crisped rice at the bottom of the pot) fought over by rank and negotiation."
+      - "The apartment soundscape: bachata (Aventura, Romeo Santos) and merengue on weekend cleaning mornings, meaning loud music at 9am means mop; dembow from cars outside; novelas or the Yankees on the TV."
+      - "Abuela network as infrastructure: after-school hours spent at abuela's or a tía's apartment two floors up; discipline, meals, and gossip flow freely across households in the same building."
+      - "Remedies and rules: Vicks VapoRub ('vivaporú') applied for every ailment; don't walk barefoot on the cold floor; don't open the fridge 'caliente' (right after ironing or coming in sweaty); cover the pot of rice with a plate, not a lid, in the fridge."
+      - "The suitcase economy: trips to the DR mean an extra suitcase of gifts going down and one of coffee, chocolate, and re-packed everything coming back."
+    occasions:
+      - "Summer in the DR: weeks in the campo or the pueblo with the other grandmother, motoconchos, cousins who tease the kid's English-inflected Spanish and love them anyway; the documented second-gen rite that keeps the transnational tie alive."
+      - "Día de los Reyes (Three Kings Day, Jan 6) alongside American Christmas; Nochebuena as the real Christmas event, with lechón and family arriving in shifts."
+      - "Quinceañera planning as multi-household project (and the running negotiation over sweet-sixteen-versus-quince for US-born girls)."
+      - "Dominican Day Parade (August, Sixth Avenue and its Bronx and Uptown echoes): flags out of car windows all week."
+      - "The salon and barbershop as ritual sites: hours in the dominicana salon under the dryer before any major event; hair discourse (and its politics) is a canonical second-gen essay topic Acevedo also writes about."
+    language_notes:
+      - "Dominican Spanish features a US-born kid reproduces natively at home: syllable-final /s/ weakening or deletion ('¿cómo tú etá?', 'lo muchacho'), 'ta' for 'está', strong preverbal pronouns ('¿tú va a venir?'), and Cibaeño vocalization of syllable-final /r/ and /l/ to /i/ in family from the Cibao ('poique' for 'porque', 'capitai' for 'capital'), a feature kids hear from elders even if they don't produce it."
+      - "Lexicon heard daily: 'un chin' (a little bit, from Taíno), 'vaina' (thing / situation, all-purpose), 'qué lo que' / 'KLK' (what's up), 'tíguere' (street-smart operator), 'guagua' (bus), 'chele' (cent), 'concho' (shared cab, also a euphemistic exclamation), 'fukú' (curse) and 'zafa' (the counter-word), 'Dique' (supposedly / yeah right)."
+      - "Spanglish as default peer register (see spanglish_translanguaging): fluid NY English-Dominican Spanish switching, with NYC English (and often AAVE features) as the school-and-block variety; Zentella's NY fieldwork and Toribio's Washington Heights work document the multi-variety repertoire."
+      - "Receptive-bilingual younger siblings are common: abuela speaks Spanish, kid answers in English, both fluent in the arrangement."
+    daily_textures:
+      - "The bodega as second living room: sent downstairs for platanos and a quarter of cheese, greeted by name, allowed to owe fifty cents; Gotham Center research describes bodegas as extensions of home where news, advice, and credit circulate; the bodega cat has a name and a following."
+      - "Dominoes slapped on a folding table outside in summer, radio on, kids orbiting and learning the table talk."
+      - "Sent to the door when the super or a delivery comes because 'tú hablas inglés': the brokering pattern in its NYC form (leases, WIC paperwork, parent-teacher night at a school that prints everything in English)."
+      - "Block geography: Washington Heights and Inwood as the historic core, with big communities in the Bronx (Fordham, Kingsbridge) and Corona, Queens; the fire escape, the stoop, and the corner as social tiers every kid can read."
+      - "Winter grief for a summer country: the January phone call where the DR cousins are at the beach and the kid is wearing a coat inside because the radiator is broken."
+    variation_note: >
+      Class, color, and neighborhood vary enormously: a family that owns two bodegas,
+      a single-mother home-attendant household, and a suburban Long Island professional
+      family are all Dominican American. Afro-Dominican identity and colorism are live,
+      contested topics inside the community (Acevedo and much second-gen writing address
+      this directly); handle with care and specificity. Religiosity ranges from daily-mass
+      abuelas to fully secular homes; some families are evangelical rather than Catholic.
+      Not every family is from the Cibao; Santo Domingo and San Pedro families sound
+      and cook differently. Use as palette, not costume.
+    sources:
+      - title: "Duany, Quisqueya on the Hudson: The Transnational Identity of Dominicans in Washington Heights (CUNY Dominican Studies Institute)"
+        url: "https://www.academia.edu/117782670/Quisqueya_on_the_Hudson_The_transnational_identity_of_Dominicans_in_Washington_Heights"
+        type: academic
+      - title: "Toribio, Dominican Americans in Washington Heights, New York: Language and Culture in a Transnational Community (Intl. Journal of Bilingual Education and Bilingualism)"
+        url: "https://www.tandfonline.com/doi/abs/10.2167/beb350.0"
+        type: sociolinguistic
+      - title: "Dominican Spanish (phonology and lexicon overview)"
+        url: "https://en.wikipedia.org/wiki/Dominican_Spanish"
+        type: sociolinguistic
+      - title: "Bodegas and Colmados: Dominican Vernacular Space in Washington Heights (Gotham Center for New York City History)"
+        url: "https://www.gothamcenter.org/blog/bodegas-and-colmados-dominican-vernacular-space-in-washington-heights"
+        type: community
+      - title: "New York City Bodegas And The Generations Who Love Them (NPR Code Switch)"
+        url: "https://www.npr.org/sections/codeswitch/2017/03/10/518376170/new-york-city-bodegas-and-the-generations-who-love-them"
+        type: community
+      - title: "The Poet X by Elizabeth Acevedo (Dominican Harlem coming-of-age; religion, mother-daughter, poetry)"
+        url: "https://en.wikipedia.org/wiki/The_Poet_X"
+        type: lived_experience
+      - title: "Dominican slam poet Elizabeth Acevedo on sex, identity and Catholicism (America Magazine)"
+        url: "https://www.americamagazine.org/arts-culture/2018/01/25/dominican-slam-poet-elizabeth-acevedo-sex-identity-and-catholicism/"
+        type: lived_experience
+      - title: "Hernández & Sezgin, Second-generation U.S. Dominicans and the Question of a Transnational Orientation (Camino Real)"
+        url: "https://www.academia.edu/4331441/Second_generation_U_S_Dominicans_and_the_Question_of_a_Transnational_Orientation_RAMONA_HERN%C3%81NDEZ_AND_UTKU_SEZGINCAMINO_REAL"
+        type: academic
+      - title: "Being a First Generation American of Dominican Heritage in Washington Heights NYC (JMU Social Change Interviews)"
+        url: "https://sites.lib.jmu.edu/sc-interviews/2022/03/26/being-a-first-generation-american-in-washington-heights-nyc/"
+        type: lived_experience

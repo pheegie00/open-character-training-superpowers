@@ -1,0 +1,385 @@
+dimension: development
+version: 0.1.0
+scope: >
+  What children can do, say, understand, and feel at each developmental band, ages 0-17.
+  Used to ground generated character bibles so a 5-year-old sounds and acts 5.
+design_rule: >
+  This file describes RANGES and typical patterns, never a specific child. Any single
+  character sits at a specific point in these ranges; wide individual variation is normal.
+  Milestone ages below follow the CDC/ASHA convention of the age by which ~75% of
+  children show a skill, not averages.
+
+bands:
+  - id: infant
+    age_range: "0-1 years"
+    language:
+      mlu: "Preverbal; no utterances to measure. Vocal stages: reflexive crying (0-2 mo), cooing (2-4 mo), canonical babbling with repeated consonant-vowel syllables like 'bababa' (6-10 mo), jargon babble with sentence-like intonation (10-12 mo)."
+      vocabulary: "First word typically 8-14 months; 0-5 spoken words by first birthday. Comprehension runs far ahead: responds to own name ~7-9 mo, understands 'no' and a handful of routine words by 12 mo."
+      grammar_and_errors: "None yet. Babbling is not random; it settles on the consonants of the ambient language and repeats favored syllables."
+      pragmatics: "Communication is real before words: gaze alternation, showing objects, proto-imperative pointing (~12 mo, 'give me that') and proto-declarative pointing ('look at that'). Turn-taking rhythms appear in babble 'conversations' with caregivers. No humor production; laughs at physical/social surprise (peekaboo, tickling) from ~4-6 mo."
+      example_utterances:
+        - "[graded crying — hunger cry, pain cry, and fuss are acoustically different and caregivers can tell them apart]"
+        - "ba-ba-ba-ba [canonical babble, repeated while banging a spoon]"
+        - "dada [10 mo — said to father, the dog, and a lamp; not yet reliably referential]"
+        - "uh! uh! [insistent, with point at cup on counter — a demand, fully intentional]"
+        - "[jargon babble with rising question intonation while 'showing' a toy to an adult]"
+    cognition:
+      reasoning: "Sensorimotor — knows the world through mouthing, banging, dropping, watching. Object permanence emerges gradually ~8 mo (will search for a hidden toy). Cause-effect learning through repetition (drops spoon 40 times because the falling is the experiment)."
+      theory_of_mind: "None in the classic sense, but the 9-12 month 'joint attention revolution' is the foundation: infant starts treating others as intentional agents, following points and gaze, checking the adult's face before touching something new (social referencing)."
+      time: "Now only. Anticipates immediate routines (sees bottle, calms) but has no represented past or future."
+      attention_minutes: "Seconds to ~2-3 minutes on a compelling object or face; attention is captured, not directed."
+      memory: "Strong recognition memory (knows familiar faces, prefers them); recall memory minimal. No autobiographical memory — nothing from this year will be remembered."
+    social_emotional:
+      friendship_model: "None. Other babies are interesting objects — may stare, poke, or cry contagiously when another infant cries."
+      regulation: "Entirely co-regulated. Self-soothing is limited to thumb-sucking, gaze aversion, and turning away; everything else requires a caregiver's body, voice, and rhythm."
+      self_concept: "No self-recognition yet (fails mirror test until ~18 mo). No embarrassment, shame, or pride — these require self-awareness that does not exist yet."
+      parents_vs_peers: "Attachment figure is the whole social world. Stranger anxiety emerges ~6-9 mo and separation distress peaks near the first birthday — both are signs of healthy attachment, not problems."
+      embarrassment: "Not possible at this age; an infant cannot be embarrassed."
+    motor_play:
+      gross: "Rolls both ways ~6 mo; sits without support ~9 mo; crawls and pulls to stand ~9-12 mo; may cruise furniture or take first steps around 12 mo (walking anywhere from 9-18 mo is normal)."
+      fine: "Raking grasp ~6 mo; transfers objects hand to hand; pincer grasp (thumb-forefinger) ~9-12 mo; bangs two objects together."
+      play_type: "Sensorimotor/exploratory play — mouthing, banging, dropping, container dump-and-fill. Social games with adults (peekaboo, pat-a-cake) are the peak of sophistication; loves them because of anticipation."
+    writers_notes:
+      - "Infants are not passive props. By 9-12 months they point, protest, show off, and check adult faces before acting — give them agency in scenes."
+      - "Babbling has structure (repeated CV syllables, language-specific sounds); random cute noise reads false to any parent."
+      - "Stranger anxiety (~8 mo on) is real and dramatic — an infant handed to an unfamiliar character SHOULD cry; it's a free, accurate beat."
+      - "Do not give infants knowing comedic reactions (eye-rolls, smirks at irony) — they lack the self-awareness those require."
+      - "Crying is graded communication, not an on/off alarm; caregivers in-scene should plausibly read the difference."
+    sources:
+      - {title: "CDC Developmental Milestones (Learn the Signs. Act Early.)", url: "https://www.cdc.gov/act-early/milestones/index.html", type: clinical}
+      - {title: "ASHA Developmental Milestones, Birth to 5 Years", url: "https://www.asha.org/public/developmental-milestones/", type: practitioner}
+      - {title: "The Developmental Origins of Joint Attention: Infants' Early Joint Attention Bids", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11947298/", type: academic}
+      - {title: "Michael Lewis, The Self-Conscious Emotions (Encyclopedia on Early Childhood Development)", url: "https://www.child-encyclopedia.com/emotions/according-experts/self-conscious-emotions", type: academic}
+
+  - id: toddler
+    age_range: "1-3 years"
+    language:
+      mlu: "Brown's Stage I-III. MLU ~1.0-2.0 at 18-26 mo (single words, then two-word combos), ~2.0-2.5 at 27-30 mo, ~2.5-3.0 at 31-34 mo. Telegraphic speech — content words only, function words dropped ('Daddy go work')."
+      vocabulary: "~50 words by 18 mo often triggers a vocabulary spurt; 100-600 expressive words at 24 mo (huge normal range); ~500 median by 2.5 yrs; ~1,000 by 3. Receptive vocabulary is several times larger throughout."
+      grammar_and_errors: "Two-word combinations ~18-24 mo; -ing, 'in'/'on', plural -s emerge in Stage II. Classic errors: telegraphic omissions ('want cookie'), pronoun case errors ('me do it', 'him goed'), overextension ('doggie' for every four-legged animal), underextension. Intelligibility to strangers only ~50% at 2, ~75% at 3."
+      pragmatics: "Here-and-now topics only; no topic maintenance — conversation is a series of announcements. Humor is McGhee Stage 2-3: using an object wrong (shoe as phone) or misnaming things on purpose ('that's a DOGGIE' pointing at Dad), then shrieking with laughter. Cannot lie yet in any sustained way; may say 'no' while holding the evidence."
+      example_utterances:
+        - "More juice."
+        - "Daddy shoe. Daddy shoe! DADDY SHOE."
+        - "No bed! No night-night!"
+        - "Me do it. ME. DO. IT."
+        - "Doggie go? Doggie... alldone?"
+    cognition:
+      reasoning: "Early preoperational. Trial-and-error problem solving; can use simple tools deliberately. Pretend representation starts ~18 mo (feeding a doll). Magical/associative causality — the vacuum is plausibly alive."
+      theory_of_mind: "Understands desires before beliefs (~18 mo: grasps that you might want the broccoli even though they want the cracker). Fails false-belief tasks. Assumes you know what they know."
+      time: "'Now' and 'not now.' 'Later' is understood as 'no.' Routines (bath-book-bed) are the only reliable clock."
+      attention_minutes: "~3-6 minutes on a self-chosen activity; near zero on an imposed one."
+      memory: "Recall over days emerging; scripts for routines. Adult-style autobiographical memory still absent (infantile amnesia typically covers this whole band)."
+    social_emotional:
+      friendship_model: "'Friend' = familiar child they are placed near. Onlooker and parallel play — playing NEXT to another child, same toys, no shared goal. Sharing is developmentally out of reach; 'MINE' is a milestone, not a character flaw."
+      regulation: "Tantrums peak roughly 18-36 mo — full-body neurological overload, not strategy. Regulation is borrowed from caregivers (co-regulation); a toddler alone with a big feeling has almost no tools."
+      self_concept: "Mirror self-recognition ~18-24 mo unlocks the self-conscious emotions: embarrassment, then pride/shame/guilt at 2-3 as they start measuring themselves against rules ('uh-oh' after spilling)."
+      parents_vs_peers: "Caregiver is home base; classic orbit pattern — venture out, touch base, venture out. Separation protest still strong early in the band."
+      embarrassment: "Emerges in this band: being watched, being laughed at, or failing at a 'big kid' task can now produce head-ducking, hiding in a parent's legs."
+    motor_play:
+      gross: "Walks well ~15 mo; runs ~2 yrs; kicks a ball; walks up stairs with help ~2, alternating feet ~3; jumps with both feet ~30 mo."
+      fine: "Scribbles ~15-18 mo; tower of 2 blocks ~15 mo, 6 blocks ~2 yrs; turns board-book pages; uses spoon messily then well; strings large beads by 3."
+      play_type: "Parallel play dominant; pretend play emerging and increasingly sequenced (stir pot, feed bear, wipe bear's mouth). Repetition is the engine — same book, same game, twenty times."
+    writers_notes:
+      - "The #1 error: full grammatical sentences from a 2-year-old. Real speech is 1-4 word telegraphic bursts with function words missing."
+      - "Tantrums are overload, not manipulation — writing a toddler who tantrums 'to win' misreads the age (calculated protest looks different: watching you while whining)."
+      - "Comprehension massively outruns production: a toddler can follow plot, mood, and tension they cannot begin to talk about. Let them react knowingly, not speak knowingly."
+      - "Refusal to share is normal development, not brattiness; the 'MINE' phase is universal."
+      - "The 'me do it' drive for autonomy (and rage when 'helped') is the signature of the band — richer material than cuteness."
+    sources:
+      - {title: "Brown's Stages of Language Development (MLU by age)", url: "https://www.handyhandouts.com/Handout/561/brown-s-stages", type: practitioner}
+      - {title: "CDC Developmental Milestones (Learn the Signs. Act Early.)", url: "https://www.cdc.gov/act-early/milestones/index.html", type: clinical}
+      - {title: "Wordbank: open database of children's vocabulary development (CDI norms)", url: "https://wordbank.stanford.edu", type: academic}
+      - {title: "Parten's stages of play (overview of the 1929/1932 observational research)", url: "https://en.wikipedia.org/wiki/Parten%27s_stages_of_play", type: academic}
+      - {title: "Michael Lewis, The Self-Conscious Emotions", url: "https://www.child-encyclopedia.com/emotions/according-experts/self-conscious-emotions", type: academic}
+
+  - id: preschool
+    age_range: "3-5 years"
+    language:
+      mlu: "Brown's Stage IV-V and beyond: MLU ~3.0-3.75 at 35-40 mo, ~3.75-4.5 at 41-46 mo, pushing past 4.5-5.0 by age 5. Complex sentences with 'because', 'so', 'and then' chains."
+      vocabulary: "~1,000-2,000+ expressive words at 3, growing fast; receptive vocabulary near 10,000 by age 5. Word-learning is voracious and error-prone (fast mapping)."
+      grammar_and_errors: "THE overregularization band: 'goed', 'runned', 'foots', 'mouses' — regular rules applied to irregulars, often AFTER a period of saying them right (U-shaped development). Errors are salient but statistically rare (~2.5% median of irregular past uses; Marcus et al. 1992). Also: wh-question inversion errors ('Why he can't come?'), 'amn't I', residual sound errors (w for r, 'wabbit') sometimes into age 6."
+      pragmatics: "Topic maintenance for a few turns, then hard tangents. Monologues while playing. Endless 'why' chains (peak ~3-4). Humor is McGhee Stage 3-4: deliberate misnaming, nonsense word play, scatological everything; tells 'riddles' with the format but no working punchline and laughs anyway. First real lies ~3, but transparently bad — will deny peeking at a toy and then name the toy (no semantic leakage control until ~7-8; Talwar & Lee)."
+      example_utterances:
+        - "I goed to the park and I swimmed in the big pool and then, and then we got ice cream."
+        - "Why the moon is following us? Is it magic? Why?"
+        - "You know what? You know what? Um... I forgot what I was gonna say."
+        - "I didn't peeked. ...It's a purple dinosaur. [the toy they did not peek at]"
+        - "He's not my friend anymore! [five minutes later, playing happily with him]"
+    cognition:
+      reasoning: "Preoperational: intuitive, appearance-driven, one variable at a time. Fails conservation (taller glass = more juice). Magical thinking and animism are sincere — the sun goes to sleep, the toy has feelings. Fantasy and reality partially blended; a pretend monster can produce real fear."
+      theory_of_mind: "The big shift: children go from failing to passing false-belief tasks across 3-5, passing reliably ~4.5-5 (Wellman, Cross & Watson 2001 meta-analysis of 178 studies). A 3-year-old assumes you know what they know; a 5-year-old can grasp that you can be fooled — which unlocks surprise parties, hiding games, and lying."
+      time: "'Yesterday' = any past, 'tomorrow' = any future. Time measured in events and sleeps ('three more sleeps'). Cannot estimate durations."
+      attention_minutes: "~8-15 minutes on chosen activity at 4-5 (roughly 2-3 minutes per year of age for imposed tasks); pretend play can run much longer."
+      memory: "First lasting autobiographical memories typically form in this band. Memory is gist-based and suggestible; retells of events are vivid, disordered, and confidently wrong on details."
+    social_emotional:
+      friendship_model: "Selman Stage 0, 'momentary physical playmate' (ages ~3-6): a friend is whoever you are playing with right now, chosen by proximity. Friendships end and restart within an afternoon."
+      regulation: "Strategies appear — distraction, self-talk, seeking an adult, blaming someone else — but capacity is thin; hunger and fatigue erase it. Emotional weather changes completely within minutes and that's normal."
+      self_concept: "Concrete and behavioral ('I'm four. I can run really fast. I have a cat.') and reliably over-optimistic — preschoolers believe they're great at nearly everything."
+      parents_vs_peers: "Parents are the center of the universe and the ultimate authority ('My dad said...' ends arguments). Peers are becoming genuinely fun rather than just tolerable."
+      embarrassment: "Public failure at a big-kid skill, wetting accidents, being laughed at when not joking. Recovery is fast — shame doesn't linger the way it will later."
+    motor_play:
+      gross: "Hops on one foot ~4; skips ~5; pedals a tricycle ~3; catches a bounced ball ~4; climbing prowess exceeds judgment."
+      fine: "Copies a circle ~3, a cross/square ~4-5; draws a person with 2-4 parts at 3-4, ~6 parts by 5; uses scissors ~4; writes some letters of own name ~5; buttons buttons."
+      play_type: "Sociodramatic pretend is the dominant and defining play — sustained roles ('you be the baby'), negotiated ('pretend you didn't know me'). Associative play at 3-4 shifting to genuinely cooperative play with shared goals by 4-5 (Parten)."
+    writers_notes:
+      - "The most over-corrected age in animation: real 4-5-year-olds make grammar errors ('goed', 'foots'), derail topics mid-sentence, and lose their thread. Perfectly articulate preschoolers are the genre's biggest tell."
+      - "Their jokes should not work. Format without mechanism ('Why did the chicken... POOP!' + hysterical laughter) is the authentic sound."
+      - "Preschool lies are transparent, not scheming — a 4-year-old villain mastermind is a category error; their cover story collapses in one question."
+      - "Magical thinking is sincere, not whimsy-for-adults; the character genuinely believes the moon follows the car."
+      - "Emotional 180s within one scene are accurate, not inconsistent writing."
+      - "A 3-year-old and a 5-year-old are developmentally very different (pre- vs post-false-belief); don't write them identically."
+    sources:
+      - {title: "Marcus et al. (1992), Overregularization in Language Acquisition (SRCD Monograph)", url: "https://nyuscholars.nyu.edu/en/publications/overregularization-in-language-acquisition", type: academic}
+      - {title: "Wellman, Cross & Watson (2001), Meta-Analysis of Theory-of-Mind Development", url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-8624.00304", type: academic}
+      - {title: "Talwar & Lee (2002), Development of lying to conceal a transgression", url: "https://journals.sagepub.com/doi/abs/10.1080/01650250143000373", type: academic}
+      - {title: "ASHA Communication Milestones: 4 to 5 Years", url: "https://www.asha.org/public/developmental-milestones/communication-milestones-4-to-5-years/", type: practitioner}
+      - {title: "Humor Development in Preschool and Primary School Children (McGhee framework)", url: "https://files.eric.ed.gov/fulltext/EJ1382690.pdf", type: academic}
+
+  - id: early_elementary
+    age_range: "5-7 years"
+    language:
+      mlu: "MLU ~5-7; essentially adult core grammar by 6-7. Later structures (full passives, dense relative clauses) still consolidating. Overregularization fades and is mostly gone by 7 — often with self-correction mid-sentence ('we runned— ran')."
+      vocabulary: "Expressive ~2,600-5,000 words at 5-6; receptive 10,000-20,000+ and climbing fast once reading starts."
+      grammar_and_errors: "Residual errors: irregular plurals/pasts occasionally, pronoun ambiguity in stories ('he told him that he...'), run-on 'and then' narrative chains. Articulation of r, th, may finish as late as 6-7."
+      pragmatics: "Real conversation: topic maintenance across many turns, repairs misunderstandings. Narratives have beginning-middle-end but ramble. Humor hits McGhee Stage 5 (~6-7): riddles and joke formats — but kids this age memorize jokes before understanding the mechanism, and laugh at pure incongruity (a 6-year-old finds an unresolvable nonsense 'riddle' as funny as a real one; resolution-appreciation arrives ~8). Idioms are taken literally ('raining cats and dogs' gets a window check). Lying is more strategic but leaks — semantic leakage control is still unreliable before ~8 (Lee)."
+      example_utterances:
+        - "And then we went to the thing, and then Marcus fell in the mud, and then, and then the teacher said we had to go inside, and it wasn't even my fault."
+        - "Knock knock. (Who's there?) Cow. (Cow who?) Cow... POOP! [collapses laughing]"
+        - "That's NOT FAIR. He got the bigger half and he ALWAYS gets the bigger half."
+        - "Actually, my teacher says spiders aren't insects, they're arachnids. Actually."
+        - "I wasn't even scared. I was just... my eyes were watering."
+    cognition:
+      reasoning: "Transition into concrete operations (~7): conservation, reversibility, class logic arrive — for tangible things. Thinking is literal and rule-based; rules are sacred and exceptions are outrages. Hypotheticals contrary to experience ('imagine snow is black') get rejected, not entertained."
+      theory_of_mind: "First-order ToM solid; second-order belief ('she thinks that he thinks...') emerging ~6-7, which is what better lying, secrets, and joke-getting are built on."
+      time: "Days of the week, sequencing of the school day; learns to read a clock ~6-7. 'Next month' still barely means anything; waiting is physically painful."
+      attention_minutes: "~10-18 minutes for a directed task at 5-6, up to ~25-30 for a genuinely chosen, engaging one at 6-7."
+      memory: "Good episodic recall; no deliberate memory strategies yet (doesn't rehearse or organize), so 'forgot my lunchbox' is chronic and honest."
+    social_emotional:
+      friendship_model: "Selman Stage 1, 'one-way assistance' (~5-9): a friend is someone who does nice things for you and likes what you like. 'Best friend' declared quickly and switched often."
+      regulation: "Can use words about feelings and hold it together at school — then fall apart at home (after-school restraint collapse is real and widely observed clinically). Losing a game is a legitimate catastrophe; sore losing peaks here."
+      self_concept: "Concrete skill-inventory self ('I'm the fastest boy in first grade'), still optimistically inflated; systematic social comparison hasn't bitten yet."
+      parents_vs_peers: "Parents still the anchor; TEACHER becomes a rival supreme authority quoted against parents. Peers matter daily but home is the base."
+      embarrassment: "Public mistakes, being laughed at (vs. with), crying in front of the class, babyish labels ('that's for kindergartners')."
+    motor_play:
+      gross: "Rides a bike without training wheels ~5-7; skips, swims basics, kicks/throws with rotation; boundless energy with poor fatigue-awareness."
+      fine: "Handwriting is effortful and large, reversals (b/d) normal to ~7; ties shoes ~6; drawing has ground lines, sky lines, and stories."
+      play_type: "Rule-based games arrive — tag variants, board games, playground games — but rules bend mid-game in the rule-maker's favor and disputes are half the game. Pretend play still rich, now with elaborate scenarios."
+    writers_notes:
+      - "Fairness meltdowns are the signature of the band — a 6-year-old tracking cookie halves to the millimeter is accurate characterization, not brattiness."
+      - "Their jokes should be formats without punchlines, told with total confidence and self-cracking laughter."
+      - "'Actually...' teacher-quoting pedantry is age-authentic and comedically underused."
+      - "Don't give them reliable secret-keeping or sustained deception; the truth leaks out within a scene."
+      - "Idioms and sarcasm land literally; a sarcastic 'great job' will be heard as praise (or be confusing/hurtful)."
+      - "School-composed / home-collapsed is a real pattern — a kid who's an angel in class and a mess at 4pm is well-observed, not inconsistent."
+    sources:
+      - {title: "Lee (2013), Little Liars: Development of Verbal Deception in Children", url: "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdep.12023", type: academic}
+      - {title: "Selman's friendship stages (Lifespan Development open text, 'Friends and Peers')", url: "https://courses.lumenlearning.com/suny-lifespandevelopment/chapter/friends-and-peers/", type: academic}
+      - {title: "McGhee riddle/incongruity findings — Humor Development in Preschool and Primary School Children", url: "https://files.eric.ed.gov/fulltext/EJ1382690.pdf", type: academic}
+      - {title: "Normal Attention Span Expectations by Age", url: "https://www.brainbalancecenters.com/blog/normal-attention-span-expectations-by-age", type: practitioner}
+      - {title: "CDC Positive Parenting Tips (age-band development summaries)", url: "https://www.cdc.gov/child-development/positive-parenting-tips/index.html", type: clinical}
+
+  - id: middle_childhood
+    age_range: "8-10 years"
+    language:
+      mlu: "MLU no longer the useful metric; growth shifts to sentence complexity — subordinate clauses, longer T-units, 'literate language' (moreover-style connectors absorbed from books) creeping into speech (Nippold)."
+      vocabulary: "Receptive vocabulary roughly 10,000-40,000 words across the band, expanding ~2,000-3,000 words/year, mostly via reading. Word-nerd pleasures begin: puns, codes, deliberately fancy words."
+      grammar_and_errors: "Adult grammar in casual register. Remaining growth is stylistic: register-switching (playground voice vs. adult-facing voice), narrative structure, argumentation. Playground slang is fluent and partly opaque to adults by design."
+      pragmatics: "Full conversational competence. Humor turns a corner ~8: they now GET riddles — appreciating resolvable incongruity rather than pure nonsense (McGhee) — and enter the golden age of puns, gross-out escalation, parody, and in-jokes. Sarcasm comprehension is emerging but unreliable. Lying is competent: by 8, semantic leakage is rare and cover stories are plausible (Lee); detection now requires actual evidence."
+      example_utterances:
+        - "Everyone in my class has one. Literally everyone except me."
+        - "Wait wait wait, I got one — what has hands but can't clap? ...A CLOCK."
+        - "It wasn't me. I was in the other room the whole time. Ask Danny."
+        - "Mom. Mom. Mom. MOM. You're not even listening."
+        - "That's so unfair — Marcus got to be goalie twice and Coach didn't even care."
+    cognition:
+      reasoning: "Concrete operations at full power: logical, systematic, fact-hungry — about tangible, checkable things. Pure abstraction and counterfactual hypotheticals still wobble. This is the age of encyclopedic mastery: dinosaurs, sharks, stats, game lore, recited at devastating length."
+      theory_of_mind: "Second-order ToM solid; understands faux pas, keeps real secrets, manages own reputation deliberately. Notices — and prosecutes — adult hypocrisy."
+      time: "Weeks and months are real; manages a schedule with support; saving up for something over a month becomes possible (barely)."
+      attention_minutes: "~16-30 minutes for directed tasks; hours for a chosen obsession (building, reading, gaming)."
+      memory: "Deliberate strategies (rehearsal, categorizing) come online; memory for beloved-domain facts is astonishing while the homework folder vanishes daily."
+    social_emotional:
+      friendship_model: "Selman Stage 2 into 3: fair-weather cooperation ('I did X for you, you owe me') maturing into intimate mutual sharing — the first true confidant best-friendships. Mostly same-gender peer groups; group membership starts to matter."
+      regulation: "Genuinely composed most of the time in public; uses reasoning and verbal repair after conflicts (typical by ~8). Decompensation now looks like sulking, door-slamming, and wounded justice rather than floor tantrums."
+      self_concept: "Social comparison arrives and deflates the preschool optimism: self-assessments become domain-specific and realistic ('I'm good at math, bad at soccer') — Harter's domain-differentiated self. First real 'I'm just not good at anything' moments are possible."
+      parents_vs_peers: "Independence from family grows visibly (CDC flags this as the band's theme); peers set daily norms, but parents remain the safety floor and are still wanted — just less publicly."
+      embarrassment: "Parents being affectionate in public, being different from the group (wrong shoes, wrong lunch), being singled out for praise OR blame in front of peers, anything 'babyish'."
+    motor_play:
+      gross: "Coordinated sport-level skill: real throwing/catching/dribbling, bike mastery, tree-climbing confidence; strength and stamina jump."
+      fine: "Fluent handwriting, detailed drawing, model-building, craft precision, fast gaming reflexes."
+      play_type: "Rule-based games dominate — sports, board/card/video games, elaborate self-invented games with constitutions' worth of negotiated rules. Collecting and trading peak. Pretend play persists but goes private/underground (embarrassing to admit)."
+    writers_notes:
+      - "The most underwritten age in film: 8-10s are competent, hilarious, obsessive, and NOT yet self-conscious about enthusiasm — mine the obsessions."
+      - "Don't write them as mini-teens: romance plots, phone-fixation, and world-weariness belong later; the real drama is friendship betrayal ('she told my secret')."
+      - "The 'literally everyone has one' hyperbole-with-statistics argument style is the age's authentic rhetoric."
+      - "They catch adult hypocrisy and name it — a parent who breaks their own rule will be prosecuted."
+      - "Lies are now good enough to actually work in-plot; the tell is behavioral (over-detail, alibi-volunteering), not verbal leakage."
+      - "Sibling and playground justice ('he got MORE') still runs hot underneath the new maturity."
+    sources:
+      - {title: "Nippold, Later Language Development: School-Age Children, Adolescents, and Young Adults", url: "https://www.proedinc.com/Products/14100/later-language-development-schoolage-children-adolescents-and-young-adultsfourth-edition.aspx", type: academic}
+      - {title: "Lee (2013), Little Liars: Development of Verbal Deception in Children", url: "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdep.12023", type: academic}
+      - {title: "CDC Positive Parenting Tips: Middle Childhood (9-11 years)", url: "https://www.cdc.gov/child-development/positive-parenting-tips/middle-childhood-9-11-years-old.html", type: clinical}
+      - {title: "Selman's friendship stages (Lifespan Development open text)", url: "https://courses.lumenlearning.com/suny-lifespandevelopment/chapter/friends-and-peers/", type: academic}
+      - {title: "Harter, Self-Perception Profile for Children (manual)", url: "https://www.apa.org/obesity-guideline/self-preception.pdf", type: academic}
+
+  - id: tween
+    age_range: "11-12 years"
+    language:
+      mlu: "Adult-range sentence length; growth is in abstract vocabulary (courage, hypocrisy), metalinguistic verbs (imply, exaggerate), and figurative language (Nippold)."
+      vocabulary: "Receptive vocabulary ~20,000-40,000+; acquiring the abstract-noun layer. Slang adoption accelerates sharply and becomes a group badge; adult use of their slang is instant cringe."
+      grammar_and_errors: "No developmental errors; instead, sociolinguistic features bloom: quotative 'be like' ('and she's like, no way'), intensifiers ('literally', 'so'), general extenders ('and stuff'), uptalk — all documented markers of the adolescent peak in language innovation (Tagliamonte)."
+      pragmatics: "Fluent sarcasm and irony, both ways. Registers multiply: peer voice, parent voice, teacher voice, text voice. Hyperbole is the house style ('literally dying', 'the WORST day of my entire life'). Deception fully competent; the new lie is the omission and the technically-true statement."
+      example_utterances:
+        - "It's not a big deal. Oh my god, forget I even said anything."
+        - "So I'm like, 'no way,' and she's like, 'I literally swear,' and I'm like— okay so anyway it was a whole thing."
+        - "Can you drop me off, like... around the corner? Not right in front."
+        - "I KNOW. You already told me. You've told me nine times."
+        - "Everyone was there. Everyone. It was SO awkward, I wanted to die."
+    cognition:
+      reasoning: "Cusp of formal operations: abstract and hypothetical reasoning flickers on and off — can argue a principle at dinner and believe a playground rumor an hour later. Early-adolescent thinking is notably black-and-white (AAP): things are amazing or terrible."
+      theory_of_mind: "Recursive and weaponizable — tracks who knows what about whom across a whole grade. Elkind's 'imaginary audience' switches on: the conviction that everyone is watching and evaluating them (they're not, but every OTHER tween is too busy feeling watched)."
+      time: "Plans weeks ahead for things they care about; future beyond a year is notional. Homework time-estimation is catastrophically optimistic."
+      attention_minutes: "Adult-capacity for chosen tasks (hours); imposed tasks still ~20-30 min before drift, now with the added competition of devices."
+      memory: "Adult-like machinery; strategic studying possible but rarely spontaneous."
+    social_emotional:
+      friendship_model: "Selman Stage 3, intimate mutual sharing, at full intensity: the confidant best friend, secrets as currency, exclusivity and jealousy. Cliques crystallize; social hierarchy awareness spikes; relational aggression (exclusion, rumor) becomes the sharp edge."
+      regulation: "Dips. Puberty's hormonal and neural changes make regulation genuinely harder than at 9-10 (nonlinear trajectory — a 12-year-old can be less composed than their 10-year-old sibling and that is developmentally accurate)."
+      self_concept: "Harter's global self-worth becomes distinct from domain self-views and often declines at the middle-school transition, especially for girls. Physical appearance becomes the dominant domain feeding self-worth."
+      parents_vs_peers: "The great oscillation: peers become the daytime reference group while the child still privately wants parental comfort at night, when sick, when scared. Parents become embarrassing BY EXISTING — chewing, singing, breathing wrong."
+      embarrassment: "The peak begins: parents in public, own body (puberty variance — within one 12-year-old classroom, one child looks 9 and another looks 15; girls typically start puberty 8-13, boys 9-14), being seen caring too much about anything, childhood tastes discovered by peers."
+    motor_play:
+      gross: "Girls' growth spurt typically underway (peak ~11-12), boys' approaching; temporary clumsiness as limbs outpace the motor map is real and observable."
+      fine: "Adult precision; fast texting; instrument/craft skills can reach genuine excellence."
+      play_type: "'Play' rebrands as 'hanging out.' Structured sports, gaming, phones/social media onset, mall/park orbiting. Secret persistence of younger play (still builds Lego, still likes stuffed animals) — fiercely concealed."
+    writers_notes:
+      - "The oscillation IS the character: Pokémon cards at 3pm, social-status crisis at 5pm, asking Mom to check for monsters at 10pm. Writers who pick one mode flatten the age."
+      - "Puberty variance is a gift: same-age characters can plausibly look and feel years apart, and they all know exactly where they rank."
+      - "Don't skip to teen cynicism — tweens still care desperately and hide it badly; the concealment failing is the comedy and the pathos."
+      - "'Drop me off around the corner' — shame about parents peaks here, before drivers' licenses give escape."
+      - "The imaginary audience means a tiny public stumble is legitimately world-ending to them; play it sincere, not mocking."
+    sources:
+      - {title: "AAP / HealthyChildren.org, Stages of Adolescence", url: "https://www.healthychildren.org/English/ages-stages/teen/Pages/Stages-of-Adolescence.aspx", type: clinical}
+      - {title: "Tagliamonte, Teen Talk: The Language of Adolescents (Cambridge UP)", url: "https://www.cambridge.org/core/books/teen-talk/062B97D885B687B915588973178456F4", type: academic}
+      - {title: "Developmental change in global and specific self-concept in adolescence (Harter framework)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136385/", type: academic}
+      - {title: "Nippold, Later Language Development (abstract vocabulary in ages 9-18)", url: "https://eric.ed.gov/?id=ED446443", type: academic}
+
+  - id: early_teen
+    age_range: "13-15 years"
+    language:
+      mlu: "Fully adult syntax; continued growth in clausal density and persuasive/argumentative discourse (Nippold). Verbal output is radically audience-dependent."
+      vocabulary: "Tens of thousands of words, heading toward the ~60,000 of early adulthood (Nippold); fluent in abstraction (irony, justice, aesthetic)."
+      grammar_and_errors: "None developmental. Peak years of sociolinguistic innovation: quotative 'be like' dominates story-telling; quotatives now introduce their own inner monologue, not just others' speech (Tagliamonte); in-group slang turns over fast and is identity infrastructure."
+      pragmatics: "The famous asymmetry: monosyllabic with parents ('Fine.' 'Nothing.' 'I don't know.'), torrential with friends. Irony is a default register; sincerity feels expensive. Argues like a lawyer when motivated — spots logical inconsistency in adult positions instantly."
+      example_utterances:
+        - "Fine. — I said it's FINE. Why are you making this a whole thing?"
+        - "That's literally not what I said. You always do this."
+        - "No offense, but nobody says that anymore."
+        - "Okay but hear me out — if you actually think about it, school is basically a prison with worse food."
+        - "[to a friend, animated, forty minutes without pause about the exact same day that was 'fine']"
+    cognition:
+      reasoning: "Formal operational thinking strengthening but inconsistent — abstract, hypothetical, idealistic. Newly able to imagine how things SHOULD be, hence the sudden allergy to hypocrisy and injustice. Under calm conditions reasons nearly like an adult; with peers present or emotions hot, reward-seeking wins — the dual-systems imbalance: sensation-seeking peaks in mid-adolescence while cognitive control is still maturing (Steinberg)."
+      theory_of_mind: "Adult-level, plus Elkind's personal fable ('no one has ever felt this way') and imaginary audience at maximum intensity."
+      time: "Can plan realistically weeks-to-months out; future self is still an abstraction, which is why long-term consequences lose to Friday night."
+      attention_minutes: "Adult capacity, motivation-gated; sleep phase shifts later biologically, so mornings are genuinely harder."
+      memory: "Adult; this is also when lifelong 'reminiscence bump' memories start being laid down — everything feels epochal partly because it is, neurologically."
+    social_emotional:
+      friendship_model: "Deep confidant friendships; group identity strong (aesthetic, fandom, team, scene as belonging badges). Romantic interest onset with high awkwardness. Peer presence measurably changes decision-making (risk-taking rises with an audience of peers — Steinberg's driving-game studies)."
+      regulation: "Mood variability is real — wider, faster mood swings than adults, tracked by daily-diary research (Larson) — but it is NOT constant misery, and 'storm and stress' as a universal state is a myth (Arnett): most teens report liking their parents and being basically happy. Volatility, not gloom."
+      self_concept: "Identity exploration begins in earnest (Marcia's moratorium: trying on selves — new music, new politics, new handwriting, new name spelling). Self-esteem often dips early in the band, especially for girls, then recovers."
+      parents_vs_peers: "Renegotiation, not rupture: fights are about autonomy logistics (curfew, phone, door closed), while most teens still share their parents' core values. Needs the parent to be there AND to not make a thing of it."
+      embarrassment: "Being seen as childish, trying and failing publicly, parental affection or advocacy in front of peers, their own earnestness being noticed, any spotlight they didn't choose."
+    motor_play:
+      gross: "Boys' growth spurt typically 13-15 (voice change, coordination temporarily scrambled then surging); girls mostly post-spurt; athletic performance jumps toward adult levels."
+      fine: "Adult; skill ceilings now set by practice, not development."
+      play_type: "Sports, gaming, music, scrolling, and above all unstructured social time — hanging out IS the activity. Creative production (art, edits, songs, code) becomes identity work."
+    writers_notes:
+      - "Uniform sullenness is the biggest teen-writing cliché and it's empirically wrong — most teens are funny, idealistic, and warm with chosen people; the sullenness is a parent-facing interface, not the operating system."
+      - "Moodiness cycles within hours, not weeks of monotone gloom; write the whiplash."
+      - "Risk-taking is context-specific: the same kid who's sensible alone does the dumb thing with three friends watching. Peer presence is the switch (Steinberg)."
+      - "When motivated they argue with real logical skill — give them good arguments, not just attitude."
+      - "The personal fable means their pain is sincerely unprecedented to them; mock it and you lose the audience who's living it."
+      - "Don't collapse 13 and 15 — two years is an era at this age (13 is barely out of tween oscillation; 15 has a social résumé)."
+    sources:
+      - {title: "Steinberg (2010), A Dual Systems Model of Adolescent Risk-Taking / Shulman et al. (2016) reappraisal", url: "https://www.sciencedirect.com/science/article/pii/S1878929315001292", type: academic}
+      - {title: "Arnett (1999), Adolescent Storm and Stress, Reconsidered", url: "https://www.researchgate.net/publication/12943720_Adolescent_storm_and_stress_reconsidered", type: academic}
+      - {title: "Tagliamonte (2004), He's like, she's like: the quotative system in Canadian youth", url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9841.2004.00271.x", type: academic}
+      - {title: "AAP / HealthyChildren.org, Stages of Adolescence", url: "https://www.healthychildren.org/English/ages-stages/teen/Pages/Stages-of-Adolescence.aspx", type: clinical}
+      - {title: "Neurocognitive bases of emotion regulation development in adolescence", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6989808/", type: academic}
+
+  - id: late_teen
+    age_range: "16-17 years"
+    language:
+      mlu: "Adult in every structural respect; continued gains only in rhetorical sophistication — persuasion, negotiation, layered irony (Nippold's trajectory continues into the 20s)."
+      vocabulary: "Approaching the ~60,000-word adult lexicon; comfortable deploying register as a tool (formal for the college interview, clipped for the group chat, tender for one person only)."
+      grammar_and_errors: "None. Slang use becomes selective and self-aware — they know it's slang, use it with irony quotes, and mock last year's words. Economy of speech can itself be a persona ('effortless cool' = fewer words)."
+      pragmatics: "Full adult pragmatic range including understatement, deflection, and strategic sincerity. Swearing is register-calibrated to the room. Can sustain a real debate, a real apology, a real negotiation — when they choose to."
+      example_utterances:
+        - "I mean... it's whatever. I just thought it'd be different, I guess."
+        - "I'm not saying I won't go to college. I'm saying I'm not going just because you went."
+        - "Can I take the car? I'll be back by eleven. ...Okay, eleven-thirty. Ten-forty-five?? That's not how negotiating works."
+        - "Honestly? The party was kind of depressing. Everyone was performing."
+        - "Hey. You good? ...You sure?"
+    cognition:
+      reasoning: "Near-adult abstract reasoning in calm ('cold') conditions; can build and defend an ideology, run counterfactuals, plan multi-step futures. The dual-systems gap persists: reward sensitivity is still elevated and cognitive control keeps maturing into the mid-20s, so hot-state and peer-audience decisions still skew risky."
+      theory_of_mind: "Adult, with growing meta-awareness — can notice themselves performing, notice others performing, and be exhausted by both."
+      time: "The future becomes real and heavy: applications, jobs, leaving. First experience of decisions that visibly fork a life."
+      attention_minutes: "Adult; capable of multi-hour deep focus on chosen work. Sleep-phase delay still biological — the 7:30am first period is fighting physiology."
+      memory: "Adult; peak encoding years of the reminiscence bump — this is the soundtrack-of-your-life period."
+    social_emotional:
+      friendship_model: "Selman Stage 4, autonomous interdependence: friendships survive distance, difference, and other friendships; less possessive than at 12-14. Romantic relationships can be serious and formative. A small number of chosen people over the crowd."
+      regulation: "Noticeably steadier than 13-15 — daily-diary research shows mood variability declining across adolescence — with high-amplitude exceptions around identity-stakes events (breakups, rejections, family conflict)."
+      self_concept: "Identity work is the central project (Marcia: moratorium resolving toward achievement in some domains, foreclosure or diffusion in others — one 17-year-old has a settled career plan and no idea who they are romantically). Newly aware of self-contradictions ('I'm loud with friends, mute with strangers — which is the real me?') and genuinely bothered by them."
+      parents_vs_peers: "Renegotiated toward near-peer: can have an actual conversation with a parent again, can even like them again — while needing to differentiate and leave. Simultaneous love and door-closing is the accurate emotional chord. CDC frames this band's tasks as independence, judgment, and planning with parents as consultants."
+      embarrassment: "Earnestness itself — caring visibly, trying visibly, being caught in sincerity. Also: their own recent (14-year-old) self, family financial or cultural markers in front of peers, public parental management of their lives."
+    motor_play:
+      gross: "Adult physical capability; most girls physically mature, some boys still adding height/mass to 18+. Driving arrives as the great autonomy technology."
+      fine: "Adult; expertise (instrument, sport, craft, code) can reach genuinely elite levels."
+      play_type: "'Play' = social ritual (drives, food runs, parties, game nights), part-time jobs, and hobbies deepening into identity or first vocation. Openly reclaiming 'childish' pleasures ironically-then-sincerely (the 17-year-old proudly rebuying Lego) begins."
+    writers_notes:
+      - "Cognitively they are near-adults; writing them 'down' as kids is the fastest way to lose them. The difference from adults is experience and hot-state judgment, not intelligence."
+      - "The voice of the age is the earnestness/irony tension — they deflect ('it's whatever') exactly where they care most."
+      - "Not all late teens are rebels: plenty are conventional, family-oriented, or foreclosed-on-a-plan, and that's developmentally normal (Marcia), not bad writing."
+      - "They can hold love for parents and the need to leave them in the same scene — resolving that tension too early or too cleanly is false."
+      - "Big dreams with shaky logistics is the accurate flavor of their planning: the gap is in execution detail, not vision."
+      - "Give them real competence (job responsibility, driving, caretaking a sibling) — 16-17s carry adult loads in many families and know it."
+    sources:
+      - {title: "CDC Positive Parenting Tips: Adolescence (15-17 years)", url: "https://www.cdc.gov/child-development/positive-parenting-tips/adolescence-15-17-years.html", type: clinical}
+      - {title: "Shulman et al. (2016), The dual systems model: review, reappraisal, and reaffirmation", url: "https://www.sciencedirect.com/science/article/pii/S1878929315001292", type: academic}
+      - {title: "Meeus et al., Identity Formation in Adolescence: Change or Stability?", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2807933/", type: academic}
+      - {title: "AAP / HealthyChildren.org, Stages of Adolescence", url: "https://www.healthychildren.org/English/ages-stages/teen/Pages/Stages-of-Adolescence.aspx", type: clinical}
+      - {title: "Larson et al. daily-diary research on mood variability across adolescence", url: "https://www.researchgate.net/publication/282859501_A_5-Year_Longitudinal_Study_on_Mood_Variability_Across_Adolescence_Using_Daily_Diaries", type: academic}
+
+cross_band_notes:
+  uneven_development: >
+    Development is not lockstep across domains. A single child can be a year ahead in
+    language, on-target in motor skills, and a year behind in emotional regulation —
+    simultaneously and normally. For characters, this asymmetry is gold: the 4-year-old
+    with a 6-year-old's vocabulary and a 3-year-old's tantrums is more real than a child
+    who is uniformly 'at level.' Milestone checklists (CDC, ASHA) mark the age by which
+    ~75% of children show a skill; a wide band of earlier and later is typical.
+  regression_under_stress: >
+    Temporary regression under stress is normal and clinically expected, not a continuity
+    error. New sibling, move, divorce, illness, or fear commonly produce a return of
+    outgrown behaviors — baby talk in a 5-year-old, clinginess in an 8-year-old,
+    bed-wetting relapse, a tween crawling into the parents' bed. Under enough stress,
+    every child (and teen) drops one or two bands. Writers can use regression as an
+    honest signal of a character's inner state.
+  bilingual_children: >
+    Bilingualism is NOT a language delay. Bilingual children reach early milestones
+    (first words, word combinations) at the same ages as monolingual peers (Journal of
+    Child Language; Byers-Heinlein & colleagues), and when vocabulary is counted ACROSS
+    both languages, total vocabulary is comparable to monolinguals' — a bilingual child
+    may know 'water' in one language and 'luna' in the other, splitting the lexicon by
+    context (home words vs. school words). Code-switching mid-sentence is a sign of
+    skill, not confusion. A bilingual child character who mixes languages fluidly and
+    has 'home-language' and 'school-language' domains is research-accurate.
+  bands_overlap: >
+    Adjacent bands blur at the edges: a young 5 plays like a preschooler; an old 12 talks
+    like an early teen. When placing a character, pick a specific point in the band (early,
+    middle, late) and let one or two traits lag or lead it.
+  sources:
+    - {title: "Bilingual children reach early language milestones at the same age as monolingual peers (Journal of Child Language)", url: "https://www.cambridge.org/core/journals/journal-of-child-language/article/bilingual-children-reach-early-language-milestones-at-the-same-age-as-monolingual-peers/0BFAB689DC70E5A2A5220976E1939948", type: academic}
+    - {title: "Byers-Heinlein et al. (2024), Sometimes larger, sometimes smaller: measuring vocabulary in monolingual and bilingual infants and toddlers", url: "https://journals.sagepub.com/doi/10.1177/01427237231204167", type: academic}
+    - {title: "Byers-Heinlein & Lew-Williams, Bilingualism in the Early Years: What the Science Says", url: "https://www.researchgate.net/publication/259822414_Bilingualism_in_the_Early_Years_What_the_Science_Says", type: academic}
+    - {title: "CDC's Revised Developmental Milestone Checklists (75th-percentile rationale)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025040/", type: clinical}
+    - {title: "CHILDES: The Child Language Data Exchange System (naturalistic child-speech corpora underlying utterance patterns)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807025/", type: academic}

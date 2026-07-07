@@ -1,0 +1,294 @@
+dimension: appearance
+version: 0.1.0
+scope: >
+  Physical-attribute vocabulary and ranges for child characters (ages 0-17), structured so a
+  character bible can emit a machine-readable appearance sheet for animation tools.
+design_rule: >
+  Ancestry maps to DISTRIBUTIONS of physical traits, never to a single look.
+  Every attribute below is a vocabulary to pick from, not a stereotype to default to.
+
+attributes:
+
+  skin_tone:
+    scale: "Monk Skin Tone (MST) scale"
+    rationale: >
+      Developed by Harvard sociologist Dr. Ellis Monk with Google, released openly in 2022-2023
+      specifically to improve representation in computer vision and image systems. It replaces the
+      Fitzpatrick scale, which an IEEE study found poorly predictive of skin tone and which
+      under-represents dark skin relative to the global population. MST allocates roughly 30% of its
+      range to light tones (1-3), 30% to medium (4-6), and 40% to dark (7-10). Ten points was chosen
+      deliberately - easy to use like a 6-point scale, resolution closer to a 40-point one.
+    levels:
+      - {mst: 1, hex: "#f6ede4", description: "very pale, porcelain"}
+      - {mst: 2, hex: "#f3e7db", description: "pale ivory"}
+      - {mst: 3, hex: "#f7ead0", description: "light, warm ivory"}
+      - {mst: 4, hex: "#eadaba", description: "light-medium, sand"}
+      - {mst: 5, hex: "#d7bd96", description: "medium, honey / tan"}
+      - {mst: 6, hex: "#a07e56", description: "medium-deep, caramel / bronze"}
+      - {mst: 7, hex: "#825c43", description: "deep tan, warm brown"}
+      - {mst: 8, hex: "#604134", description: "deep, rich brown"}
+      - {mst: 9, hex: "#3a312a", description: "very deep, dark brown"}
+      - {mst: 10, hex: "#292420", description: "deepest, near-ebony"}
+    undertones:
+      values: [warm_golden, warm_red, olive_green, neutral, cool_blue, cool_pink]
+      note: >
+        Undertone is independent of depth. Two children at MST 8 can read completely differently on
+        screen if one has warm-red undertones and the other cool-blue. Always specify both MST level
+        and undertone in a character sheet; AI video tools drift badly on skin tone when only a
+        vague word like "brown" is given.
+    lighting_note: >
+      For animation, record skin tone as the flat MST swatch (base albedo), then let lighting do the
+      rest. Do not bake highlights into the spec; dark skin has strong specular highlights and
+      renders beautifully when lit deliberately rather than brightened.
+    sources:
+      - {title: "Improving skin tone representation across Google (MST announcement)", url: "https://blog.google/products/search/monk-skin-tone-scale/", type: technical}
+      - {title: "Skin Tone Research at Google - the MST scale", url: "https://skintone.google/the-scale", type: technical}
+      - {title: "Monk Skin Tone Scale - Wikipedia (hex values, Fitzpatrick comparison)", url: "https://en.wikipedia.org/wiki/Monk_Skin_Tone_Scale", type: technical}
+      - {title: "Consensus and subjectivity of skin tone annotation for ML fairness", url: "https://research.google/blog/consensus-and-subjectivity-of-skin-tone-annotation-for-ml-fairness/", type: academic}
+      - {title: "Lives saved by sociologist's fix for skin tone bias (Harvard FAS)", url: "https://current.fas.harvard.edu/stories/lives-saved-sociologists-fix-skin-tone-bias", type: academic}
+
+  hair:
+    texture_scale: "Andre Walker typing system (1a-4c), used with known caveats"
+    texture_types:
+      - {type: "1a", description: "stick-straight, fine"}
+      - {type: "1b", description: "straight with body"}
+      - {type: "1c", description: "straight, coarse"}
+      - {type: "2a", description: "loose S-wave"}
+      - {type: "2b", description: "defined waves"}
+      - {type: "2c", description: "strong waves bordering curls"}
+      - {type: "3a", description: "large loose curls (sidewalk-chalk width)"}
+      - {type: "3b", description: "springy ringlets (marker width)"}
+      - {type: "3c", description: "tight corkscrews (pencil width)"}
+      - {type: "4a", description: "tight coils with visible S-pattern (crochet-needle width)"}
+      - {type: "4b", description: "sharp Z-pattern zigzag coils, less defined curl"}
+      - {type: "4c", description: "tightest coil, maximum shrinkage (up to ~75% of length), dense cloud-like volume"}
+    typing_caveats: >
+      The Walker chart is a starting vocabulary, not a science. Known critiques - most heads carry
+      multiple curl patterns at once (crown vs nape vs edges); the a-c letters originally meant
+      strand thickness for types 1-2, not curliness; and porosity, density, and strand thickness
+      matter more for how hair actually behaves and reads on screen than the type number. For a
+      character sheet, allow a primary and secondary texture (e.g. "4b with 4a at the edges").
+    density: [low, medium, high, very_high]
+    porosity:
+      values: [low, medium, high]
+      note: "Matters for story beats (wash day, product, drying time) more than for silhouette."
+    strand_thickness: [fine, medium, coarse]
+    length_vocabulary: [buzzed, twa_teeny_weeny_afro_close_crop, ear_length, chin_length, shoulder_length, mid_back, waist_length]
+    shrinkage_note: >
+      For type 3c-4c hair, record BOTH stretched length and worn length. A child with mid-back 4c
+      hair may wear it at ear-to-shoulder visual length. Animation reference sheets need the worn
+      silhouette, not the stretched measurement.
+    color_vocabulary:
+      natural: [blue_black, soft_black, darkest_brown, dark_brown, medium_brown, light_brown, chestnut, auburn, dark_red, ginger, strawberry_blonde, golden_blonde, ash_blonde, platinum]
+      notes: >
+        Black and darkest-brown hair dominate globally. Natural red and blonde occur mostly in
+        Northern/Western European ancestry but appear in every population, including via albinism
+        and natural sun-lightened tips on type 4 hair. Kids' hair also darkens with age -
+        a blonde toddler is often a brown-haired ten-year-old.
+    black_childrens_styles_by_age:
+      note: >
+        These styles are culturally specific, protective, and identity-carrying - not costume.
+        Cornrows, braids, twists, Bantu knots, and locs carry historic ties to African identity,
+        communication, and survival. Hair care itself is a relationship ritual (a caregiver's hands,
+        hours of detangling, beads chosen by the child) and is worth animating as a story beat,
+        not hiding. Styles change often - a well-written Black girl character does not wear one
+        hairstyle for an entire series.
+      infant_toddler_0_3: [free_afro, single_top_puff, two_puffs, mini_two_strand_twists, headband_with_free_hair]
+      young_child_4_8: [afro_puffs_two_or_more, cornrows_straight_back, cornrows_with_beads, box_braids_with_beads_and_barrettes, two_strand_twists, bantu_knots, ballies_and_snap_barrettes, high_puff]
+      preteen_9_12: [box_braids_longer, feed_in_cornrows, twist_out_worn_free, half_up_puff, knotless_braids, short_locs, low_fade_with_sponge_curls_boys, waves_boys]
+      teen_13_17: [knotless_braids, goddess_braids, faux_locs, locs_maturing, silk_press_occasion_style, twist_out, wash_and_go_defined_curls, high_top_fade_boys, freeform_curls_boys, durag_and_waves_boys]
+      care_details_for_authenticity: [satin_bonnet_or_scarf_at_night, wide_tooth_comb_and_detangler, edge_control_and_laid_edges, wash_day_as_an_event, bead_sounds_when_running, shrinkage_after_rain_or_swimming]
+    sources:
+      - {title: "Andre Walker Hair Typing System - Wikipedia", url: "https://en.wikipedia.org/wiki/Andre_Walker_Hair_Typing_System", type: technical}
+      - {title: "The Science of Curly Hair Typing (critiques of the Walker chart)", url: "https://www.curlsbot.com/blog/the-science-of-hair-typing", type: community}
+      - {title: "Black hair - what it signifies and the importance of its expression", url: "https://www.statepress.com/article/2026/02/black-hair-expression", type: community}
+      - {title: "12 ways hair carries family, culture, and identity", url: "https://www.thequeenzone.com/12-ways-hair-carries-family-culture-and-identity/", type: community}
+      - {title: "African American children's hairstyles and care tips", url: "https://www.perfectlocks.com/blogs/all-tressed-up/african-american-childrens-hairstyles-and-tips", type: community}
+
+  eyes:
+    color_vocabulary: [dark_brown, brown, light_brown, amber, hazel, green, gray, blue, blue_gray, red_violet_albinism]
+    distribution_notes: >
+      Brown (dark to light) covers roughly 70-80% of humans worldwide and dominates in African,
+      Asian, Middle Eastern, and Indigenous American populations. Blue is second at roughly 8-10%,
+      concentrated in Northern Europe. Green is rarest at about 2%, most common in Irish, Scottish,
+      and Icelandic heritage. Amber and hazel each sit around 5% or less. At least 16 genes
+      (OCA2 and HERC2 chief among them) influence eye color, so brown-eyed parents can have
+      lighter-eyed children and vice versa; do not treat eye color as a strict ancestry marker.
+      Many babies of European descent are born blue-gray and darken over the first year.
+    shape_vocabulary: [round, almond, upturned, downturned, hooded, monolid, double_lid, deep_set, prominent, wide_set, close_set]
+    shape_note: >
+      Every eye shape occurs in every population. Monolids are common but not universal in East
+      Asian children; hooded and double-lid eyes appear everywhere. Vary eye shape within a cast of
+      the same ancestry - it is one of the fastest cures for same-face syndrome.
+    sources:
+      - {title: "Eye color - percentage of world population with each shade", url: "https://science.howstuffworks.com/life/genetic/eye-color-percentage.htm", type: media_guide}
+      - {title: "Eye colors - most common and percentages (Medical News Today)", url: "https://www.medicalnewstoday.com/articles/eye-color-percentage", type: clinical}
+      - {title: "Worldwide eye color percentages (Healthline)", url: "https://www.healthline.com/health/eye-health/eye-color-percentages", type: clinical}
+
+  face:
+    framing: >
+      Every feature below varies WITHIN every population. Use this vocabulary to differentiate
+      individuals, never to signal race by a single checkbox. A West African cast should contain
+      narrow and wide noses, full and thinner lips, long and round faces - just like any real
+      classroom.
+    face_shape: [round, oval, square, heart, oblong, diamond]
+    nose:
+      bridge: [low, medium, high]
+      width: [narrow, medium, wide]
+      tip: [upturned, straight, rounded, downturned]
+      note: "Children's noses are proportionally smaller and softer; bridge height develops with age."
+    lips:
+      fullness: [thin, medium, full, very_full]
+      shape: [defined_cupids_bow, soft_bow, wide, small]
+      lip_tone_note: "Deeper skin tones often show two-tone lips (darker outer edge, warmer center) - a lovely, specific detail most pipelines miss."
+    brows: [straight, soft_arch, high_arch, thick, thin, feathered]
+    cheeks_and_jaw: [full_cheeks, high_cheekbones, soft_jaw, defined_jaw, dimples, round_baby_cheeks]
+    child_proportion_note: >
+      Age drives facial proportion more than ancestry does - toddlers have eyes at the vertical
+      midpoint of a large cranium, small jaws, and full cheeks; teens approach adult proportion.
+      Get age proportion right first, then individuate.
+    distinguishing_details: [freckles, moles_beauty_marks, vitiligo, birthmarks, gap_teeth, braces, glasses, hearing_aid, scars_small, eczema_patches]
+    sources:
+      - {title: "Same Face Syndrome - how to create distinct-looking characters", url: "https://gabriellabalagna.com/same-face-syndrome/", type: media_guide}
+      - {title: "Same face syndrome in female characters in Western animated films", url: "https://the-artifice.com/same-face-syndrome-in-female-characters-in-western-animated-films/", type: media_guide}
+
+  build_by_age:
+    grounding: >
+      Ranges below approximate the CDC 2000 growth charts (5th-95th percentile envelope around the
+      50th percentile, sexes pooled until puberty, then split). Use them so a 5-year-old is drawn at
+      correct scale next to a 10-year-old - relative scale errors are the most common realism break
+      in AI-generated child characters. CDC percentile curves run 5th to 95th; a healthy real child
+      can sit anywhere in (or slightly outside) that band.
+    bands:
+      - {age_band: "0-1 (infant)", height_cm: "50-76", weight_kg: "3.5-10", head_to_body: "1:4", notes: "head enormous relative to body; no neck definition"}
+      - {age_band: "1-2 (toddler)", height_cm: "74-88", weight_kg: "9-13", head_to_body: "1:4.5", notes: "round belly, short limbs, unsteady stance"}
+      - {age_band: "3-4 (preschool)", height_cm: "92-107", weight_kg: "13-18", head_to_body: "1:5", notes: "belly flattens, limbs lengthen"}
+      - {age_band: "5-6", height_cm: "105-122", weight_kg: "17-23", head_to_body: "1:5.5", notes: "a 5-year-old averages ~109 cm - waist-high to an adult"}
+      - {age_band: "7-8", height_cm: "117-134", weight_kg: "21-32", head_to_body: "1:6", notes: "leaner childhood proportions; front teeth gaps common"}
+      - {age_band: "9-10", height_cm: "127-145", weight_kg: "25-40", head_to_body: "1:6", notes: "10-year-old averages ~138 cm; girls may begin puberty growth"}
+      - {age_band: "11-12", height_cm: "136-160", weight_kg: "30-55", head_to_body: "1:6.5", notes: "girls often taller than boys here; high variance is realistic"}
+      - {age_band: "13-14", height_cm: "148-175 (boys), 148-170 (girls)", weight_kg: "38-65", head_to_body: "1:7", notes: "boys' growth spurt begins; gangly limb-to-torso ratios"}
+      - {age_band: "15-17", height_cm: "160-185 (boys), 152-172 (girls)", weight_kg: "48-80", head_to_body: "1:7.5", notes: "near-adult height; faces still soft, shoulders still narrowing vs adult men"}
+    body_diversity_notes:
+      - "Percentiles are a range, not a target - include tall, short, heavier, thinner, and average kids in every cast."
+      - "Body type vocabulary: petite, slim, average, sturdy, soft/round, tall-lanky, broad, athletic."
+      - "Puberty timing varies by years between healthy kids; a short 14-year-old boy and a tall one can both be at the 50th percentile of their own trajectory."
+      - "Disability is part of body diversity: wheelchair users, limb difference, cerebral palsy gait, dwarfism - specify assistive equipment (chair, crutches, AFOs, prosthetic) as stable visual anchors."
+    sources:
+      - {title: "CDC Growth Charts (clinical, 2-20 years)", url: "https://www.cdc.gov/growthcharts/cdc-charts.htm", type: clinical}
+      - {title: "CDC stature/weight-for-age percentiles, boys 2-20 (chart PDF)", url: "https://www.cdc.gov/growthcharts/data/set1clinical/cj41c021.pdf", type: clinical}
+      - {title: "CDC stature/weight-for-age percentiles, girls 2-20 (chart PDF)", url: "https://www.cdc.gov/growthcharts/data/set1clinical/cj41c022.pdf", type: clinical}
+      - {title: "PediTools CDC growth calculator (percentile lookup)", url: "https://peditools.org/growthpedi/", type: clinical}
+
+ancestry_distributions:
+  - id: west_african
+    label: "West African (e.g. Nigerian, Ghanaian, Senegalese heritage)"
+    override_note: >
+      This is a STARTING distribution, not a rule. Authors can and should override any field -
+      real West African populations include albinism (notably visible in Nigeria and Tanzania),
+      lighter-skinned individuals, loose-curled hair, and every face shape.
+    skin_tone:
+      typical_mst: "7-10 (most commonly 8-9)"
+      full_range: "4-10, plus albinism (MST 1-2 with type 4 hair - a real and under-drawn combination)"
+      undertones: "warm-red and warm-golden most common; cool-blue undertones frequent at MST 9-10"
+    hair:
+      typical_texture: "4a-4c (4c very common), high density"
+      full_range: "3c-4c typical; looser patterns occur"
+      color: "blue-black to darkest brown dominant; sun-reddened tips and natural dark-auburn occur"
+    eyes:
+      typical: "dark brown strongly dominant"
+      full_range: "brown spectrum; amber and hazel occur; light eyes rare but real"
+    face_note: "Vary everything - nose widths, lip fullness, and face shapes span the whole vocabulary within any Lagos or Accra classroom."
+  - id: caribbean_afro_latino
+    label: "Caribbean Afro-Latino (e.g. Dominican, Puerto Rican, Cuban, Haitian-diaspora heritage)"
+    override_note: >
+      Starting distribution only. Caribbean populations are among the most admixed on Earth
+      (African, European, Indigenous Taino, and Asian ancestry), so the honest distribution is WIDE
+      - siblings in one family can span four MST levels and three hair types.
+    skin_tone:
+      typical_mst: "4-9 (broad, flat distribution; no single 'typical' level is honest)"
+      full_range: "1-10"
+      undertones: "warm-golden and olive common; every undertone present"
+    hair:
+      typical_texture: "2c-4b, with 3b-4a especially common; density medium-high"
+      full_range: "1b-4c"
+      color: "dark brown to black dominant; medium brown and auburn not rare"
+    eyes:
+      typical: "dark brown and brown dominant"
+      full_range: "hazel, green, amber, and light brown all occur at visible rates"
+    face_note: "Feature combinations cross freely - tight coils with a narrow nose, light skin with very full lips. Depicting only 'matched sets' of features erases most real Afro-Latino people."
+  - id: mixed_heritage_note
+    label: "Mixed heritage (general note)"
+    note: >
+      Mixed-heritage children are common and getting more so, and inheritance compounds
+      unpredictably - a child of a Nigerian parent and a Korean parent, or a Dominican parent and
+      an Irish parent, can land anywhere within (or outside) either parent's distribution. Traits
+      do not blend to a midpoint: a mixed child can have MST 8 skin with 3a curls, or MST 3 skin
+      with 4b coils. Build mixed characters trait by trait, not by averaging.
+
+prompt_block_guidance: >
+  To compile these attributes into a stable visual prompt for AI video tools (Runway, Pika, Sora,
+  Veo, etc.), emit ONE canonical appearance sentence and reuse it verbatim in every shot prompt -
+  consistency comes from identical phrasing, not from re-describing. Recommended order and content -
+  (1) age and build ("a 7-year-old Black girl, about 122 cm, sturdy build"); (2) skin as MST level
+  plus plain-language swatch and undertone ("deep warm brown skin, Monk scale 8, warm-red
+  undertone"); (3) hair texture, style, worn length, color, and accessories ("dense 4b coils in
+  two afro puffs with red bead-tipped braids framing her face"); (4) eyes with color and shape
+  ("large dark-brown round eyes"); (5) two or three fixed distinguishing anchors ("gap between
+  front teeth, small mole on left cheek, yellow glasses") - anchors are what actually locks
+  identity across shots, so choose them once and never vary them; (6) wardrobe constant if any.
+  Always include the numeric MST level - tools drift toward lightening dark skin across shots, and
+  the number plus "do not lighten skin tone" fights that drift. Never rely on ethnicity words alone
+  ("an African girl") to carry appearance; they produce stereotyped composites. Store the sentence
+  in the character bible as appearance_prompt_locked and treat any edit to it as a versioned change.
+
+representation_notes:
+  - topic: same_face_syndrome
+    guidance: >
+      Same-face syndrome - deriving every character from one facial model and repainting it - is a
+      documented failure mode in major studio animation, criticized heavily around Disney's Frozen
+      era. The cure is structural variation: change skull shape, eye spacing, nose bridge, jaw, and
+      body type between characters of the SAME ancestry and gender, not just skin, hair, and outfit.
+      If two characters read as identical in silhouette and grayscale, the design is not done.
+    sources:
+      - {title: "Same Face Syndrome - how to create distinct-looking characters", url: "https://gabriellabalagna.com/same-face-syndrome/", type: media_guide}
+      - {title: "Only Six Faces - TV Tropes", url: "https://tvtropes.org/pmwiki/pmwiki.php/Main/OnlySixFaces", type: media_guide}
+  - topic: colorism
+    guidance: >
+      Quantitative analysis of Disney-owned animated films found antagonists have significantly
+      darker skin tones than protagonists, and dark skin is disproportionately assigned to villains,
+      sidekicks, and comic relief. Audit every cast: dark-skinned (MST 8-10) characters must appear
+      as leads, love interests, geniuses, and gentle characters - not only as heavies. Also avoid
+      the softer failure of making the hero the lightest-skinned member of an otherwise dark family.
+    sources:
+      - {title: "Investigating colorism in children's animated films (AAP Pediatrics abstract)", url: "https://publications.aap.org/pediatrics/article/149/1%20Meeting%20Abstracts%20February%202022/84/185828/Investigating-Colorism-in-Children-s-Animated", type: academic}
+      - {title: "Colorism and the animated series Proud Family (research)", url: "https://www.researchgate.net/publication/291391805_Pride_and_Prejudice_Pervasiveness_of_Colorism_and_the_Animated_Series_Proud_Family", type: academic}
+  - topic: hair_as_identity
+    guidance: >
+      For Black girls especially, hair is identity, ritual, and frequent site of real-world policing
+      (school dress codes, the CROWN Act context). On screen this means: render type 4 hair with
+      real volume and texture rather than a smooth helmet; let styles change between episodes; show
+      care moments (bonnets at night, wash day, a parent braiding) as warm, ordinary life; and never
+      use a Black child's natural hair as a joke, a problem to fix, or a 'before' state.
+    sources:
+      - {title: "Black hair - what it signifies and the importance of its expression", url: "https://www.statepress.com/article/2026/02/black-hair-expression", type: community}
+      - {title: "12 ways hair carries family, culture, and identity", url: "https://www.thequeenzone.com/12-ways-hair-carries-family-culture-and-identity/", type: community}
+  - topic: visible_difference_and_disability
+    guidance: >
+      Glasses, braces, hearing aids, wheelchairs, prosthetics, vitiligo, albinism, limb difference,
+      and eczema are ordinary parts of childhood and belong on characters whose stories are not
+      about them. Treat assistive devices as designed personal objects (a kid chooses cool frames
+      and a sticker-covered chair) and keep them as consistency anchors in prompts. Avoid the
+      inspiration-object framing and avoid scarring or disability as villain-coding.
+    sources:
+      - {title: "CDC growth charts (context: percentile diversity is normal)", url: "https://www.cdc.gov/growthcharts/index.htm", type: clinical}
+  - topic: features_vary_within_populations
+    guidance: >
+      The core rule restated: ancestry gives you a probability distribution, and individuals are
+      samples, not averages. Any cast where all members of one ethnicity share one nose, one eye
+      shape, and one body is same-face syndrome wearing a diversity costume. Sample deliberately
+      off-center at least sometimes - the dark-skinned kid with hazel eyes, the East Asian kid with
+      double-lidded round eyes, the Afro-Latina with 2c waves - because those kids exist and rarely
+      see themselves.
+    sources:
+      - {title: "The Monk Skin Tone Scale (built on within-population variation research)", url: "https://skintone.google/", type: technical}

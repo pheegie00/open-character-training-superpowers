@@ -1,0 +1,734 @@
+dimension: neurotype
+version: 0.1.0
+scope: >
+  How autism, ADHD, anxiety, and depression actually manifest in children ages 0-17,
+  as ranges of traits for grounding character bibles.
+design_rule: >
+  Every condition is a REPERTOIRE, not a checklist. A real child expresses a specific
+  small subset of these traits. "If you've met one autistic person, you've met one
+  autistic person." Demographics and diagnoses determine a character's circumstances,
+  never their personality.
+
+conditions:
+  - id: autism
+    summary: >
+      From the inside, autism is a different sensory and social operating system, not a
+      set of deficits. The world is often too loud, too bright, too fast, and too
+      unspoken-rule-bound; deep focus, honesty, pattern-love, and rhythmic movement feel
+      natural and good. Much of the visible "difficulty" is the friction of translating
+      constantly for a world built for other nervous systems, which is exhausting even
+      when it looks effortless.
+    trait_repertoire:
+      - trait: motor stimming
+        description: >
+          Repetitive movement that regulates the senses and expresses feeling, such as
+          hand-flapping, spinning, rocking, bouncing, toe-walking, finger-flicking, or
+          pacing. Autistic adults describe stimming as pleasurable and necessary, "like
+          holding back something you need to say" when suppressed. Flapping often spikes
+          with joy or excitement, not only distress.
+        variation: >
+          Repertoires are individual. One child flaps, another only rocks, another paces
+          in circles while thinking. Many autistic kids have no visible stims at all, or
+          only tiny ones (jaw clenching, hair-twirling, rubbing a seam) — especially kids
+          who have learned to hide them.
+      - trait: vocal stimming and echolalia
+        description: >
+          Humming, repeating satisfying words or sounds, or echoing phrases just heard
+          (immediate echolalia) or from days or years ago (delayed echolalia). Echolalia
+          is often meaningful communication — a movie line can mean "I'm scared" if it
+          came from a scary scene.
+        variation: >
+          Common in younger and higher-support children; many autistic kids never echo at
+          all, and some fluent speakers still quote-to-communicate as teens.
+      - trait: scripting
+        description: >
+          Rehearsing conversations in advance or reusing lines from media and past
+          interactions as building blocks for speech. Scripting makes unpredictable
+          social situations survivable and can make a child sound oddly formal or
+          "little professor"-ish.
+        variation: >
+          Heaviest in kids who mask; a confident autistic kid in a safe environment may
+          barely script. Some children script fluently in special-interest topics and
+          go near-nonverbal outside them.
+      - trait: special interests
+        description: >
+          Deep, joyful, expert-level absorption in specific topics — trains, a video
+          game, marine biology, a single band, vacuum cleaners, a historical era. The
+          interest is a source of genuine expertise, identity, comfort, and social entry
+          point, not an empty obsession.
+        variation: >
+          Topics range from stereotypically "quirky" to completely ordinary (horses,
+          K-pop, a best friend's life) — ordinary-topic interests in girls are routinely
+          missed. Some kids serially replace interests; others keep one for a decade.
+      - trait: sensory hypersensitivity
+        description: >
+          Fluorescent lights buzz and flicker painfully, tags and seams burn, cafeteria
+          noise physically hurts, certain food textures trigger gagging, unexpected touch
+          feels like an attack. The child is not overreacting; the volume knob is
+          genuinely set higher.
+        variation: >
+          Profiles are idiosyncratic — sound-sensitive but touch-seeking, or vice versa.
+          Sensitivity fluctuates with stress and sleep; a coping child at 9am may be
+          overwhelmed by the same room at 3pm.
+      - trait: sensory hyposensitivity and seeking
+        description: >
+          The opposite pole, often in the same child in different senses. Craving deep
+          pressure, tight hugs, crashing into furniture, chewing shirts, not noticing
+          cold, pain, hunger, or a full bladder (interoception differences).
+        variation: >
+          Seeking behavior is often misread as "hyper" or naughty. Poor interoception is
+          nearly invisible and often persists in otherwise low-support kids.
+      - trait: masking and camouflaging
+        description: >
+          Consciously performing neurotypicality — forcing eye contact, copying a
+          popular peer's laugh and posture, suppressing stims, rehearsing small talk. It
+          works, at the cost of exhaustion, delayed diagnosis, lost sense of self, and
+          after-school meltdowns once the mask drops at home.
+        variation: >
+          Most documented in girls and gender-diverse kids ("lost girls" who fly under
+          the diagnostic radar into their teens or adulthood), but boys mask too. Some
+          children cannot or do not mask at all; unmasked autism is not "more severe,"
+          just more visible.
+      - trait: meltdown
+        description: >
+          An involuntary fight-response to overload — crying, screaming, throwing,
+          bolting, sometimes self-injury (head-banging, biting own arm). Not a tantrum
+          and not manipulation; there is no audience-checking, no goal, and afterwards
+          usually exhaustion and shame. Adults escalate it by demanding eye contact,
+          touching, or talking.
+        variation: >
+          Frequency ranges from daily to almost never. Triggers accumulate invisibly
+          ("the water bottle was the last straw, not the reason"). Many kids melt down
+          only at home, where it is safe — school sees the "fine" version.
+      - trait: shutdown
+        description: >
+          The freeze-response twin of the meltdown — going silent and still, losing
+          speech, hiding under a desk or blanket, unresponsive to questions. The same
+          overload turned inward. Often praised as "calming down" when the child is
+          actually offline.
+        variation: >
+          Some children only shut down and never melt down; these kids get missed
+          entirely. Losing speech under stress (situational mutism) happens even to
+          normally hyper-verbal autistic kids.
+      - trait: social directness and literal processing
+        description: >
+          Saying true things at socially wrong times, missing sarcasm or hints, taking
+          idioms literally, asking "why?" about rules everyone else absorbs silently.
+          From the inside this is honesty and a need for explicit logic, not rudeness.
+        variation: >
+          Many autistic kids learn irony and sarcasm fine, especially with age; some
+          become heavy sarcasm users themselves. Literalism is strongest under stress.
+      - trait: eye contact differences
+        description: >
+          Eye contact can feel invasive, painful, or simply incompatible with listening —
+          many autistic people process speech better while looking away. Forced eye
+          contact costs comprehension.
+        variation: >
+          Ranges from total avoidance to trained "look at the eyebrows" workarounds to
+          unusually intense staring. Some autistic kids have completely typical gaze.
+      - trait: need for sameness and routine
+        description: >
+          Predictability is safety. Same breakfast, same route, lining up toys, distress
+          at substitute teachers or moved furniture, needing warnings before transitions.
+          Rituals are load-bearing, not arbitrary.
+        variation: >
+          Intensity varies hugely; some kids are flexible about everything except one or
+          two sacred routines. Distress at change often reads as "brattiness" to adults.
+      - trait: uneven skill profile
+        description: >
+          Reading at 3 but unable to tie shoes at 9; encyclopedic dinosaur knowledge but
+          can't order food; solving math above grade level while needing help dressing.
+          Spiky profiles are the norm, in every direction.
+        variation: >
+          Includes nonspeaking kids with rich inner lives and strong receptive language —
+          not speaking is not not-thinking. About a third of autistic kids also have
+          intellectual disability; most do not.
+      - trait: co-regulation with objects and animals
+        description: >
+          Comfort objects carried far past typical age, intense bonds with pets, deep
+          attachment to specific textures or fidgets. A specific rock or worn plush can
+          be a portable anchor.
+        variation: >
+          Nearly universal in some form but the form is personal; many teens shift to
+          headphones-and-hoodie as socially camouflaged regulation gear.
+    by_age:
+      preschool:
+        - Differences often visible by age 2-3 — absent or unusual pointing and showing, language that is delayed OR precociously advanced, lining up toys, big reactions to sensory events, not orienting to name.
+        - Play may be object-focused (wheels, sorting, spinning) rather than pretend-social; parallel play persists longer. Some preschoolers script entire TV episodes verbatim.
+        - Meltdowns look superficially like toddler tantrums, which is why parents are told "all kids do that"; the tell is triggers (sensory, transition) and intensity/duration, not "wanting something."
+      elementary:
+        - The social gap widens as peer play becomes rule-laden and verbal — recess and lunch are often the hardest parts of school, not academics. The child may prefer adults or much younger kids.
+        - Special interests become visible expertise; the child may monologue and miss that listeners left. Masking often begins here, especially in girls, who imitate a chosen "social template" friend.
+        - After-school restraint collapse is classic — perfect at school, meltdown at home. Teachers and parents may describe two different children.
+      teen:
+        - Masking peaks and its costs surface — anxiety, exhaustion, identity confusion, autistic burnout (skill loss and shutdown after years of camouflaging). Late diagnosis in this window is common, especially for girls.
+        - Social rules get exponentially harder (flirting, group chats, implied hierarchies); many autistic teens find their people through interest-based communities, often online, where text-based socializing removes the hardest channels.
+        - Some teens grow into their autistic identity with pride and self-advocacy; others double down on hiding. Both arcs are real and can coexist in one kid across contexts.
+    co_occurrence:
+      - ADHD (very common; "AuDHD" is a widely used community identity)
+      - anxiety disorders (the most common co-occurring mental health condition)
+      - sensory and gastrointestinal issues, sleep problems
+      - epilepsy, intellectual disability (in a minority), dyspraxia
+      - depression in teens, often linked to masking and exclusion rather than autism itself
+      - gender diversity is notably more common among autistic youth
+    portrayal:
+      do:
+        - Show interiority — narrate from inside the sensory flood and the logic of the routine, so the audience experiences the reason before the behavior.
+        - Give the autistic kid competence, humor, and a real arc where they want things and act; autism is the character's operating system, not their plot function.
+        - Show stimming as neutral-to-joyful body language (happy flapping!) that other characters simply accept, not as a symptom to be trained away.
+        - Cast and consult autistic people; autistic writers and actors catch false notes no checklist catches.
+        - Vary who is autistic — girls, Black and brown kids, chatty kids, sporty kids; the diagnosed-white-boy default erases most of the actual population.
+        - Let the child have their own opinion about being autistic — proud, annoyed, indifferent, evolving — rather than making it only the parents' journey.
+      avoid:
+        - The savant cliché (human calculator, Rain Man) — savant skills are rare and the trope replaces personality with a party trick.
+        - Autism as burden narrative told entirely from exhausted-parent point of view, where the child is a problem to be solved or mourned.
+        - The emotionless-robot read — autistic kids typically feel intensely, often hyper-empathically; what differs is expression and processing speed.
+        - Meltdown-as-spectacle used for drama, or a meltdown "cured" by a hug from the right person.
+        - Curing, or "overcoming," autism as the happy ending; acceptance and accommodation are the endings the community asks for.
+        - One character carrying the whole spectrum — a single set of dramatic visible traits standing in for all autism.
+    strengths:
+        - deep sustained focus and genuine expertise in areas of interest
+        - honesty, loyalty, and low interest in social games or status
+        - pattern recognition, systemizing, and attention to detail
+        - strong sense of justice and fairness, often fierce about rules protecting others
+        - original, non-conformist thinking; unusual and creative associations
+        - intense capacity for joy in specific things (the community calls stims and interests genuine pleasures, not symptoms)
+    contested:
+        - "Language: surveys consistently find most autistic adults prefer identity-first ('autistic person') and many find person-first ('person with autism') stigmatizing; ASAN and most self-advocates use identity-first, while many clinicians and some parents insist on person-first. A minority of autistic people do prefer person-first — a character or family can sit anywhere on this."
+        - "ABA (applied behavior analysis): mainstream clinical bodies endorse it; a large portion of the autistic adult community describes compliance-focused ABA as harmful and masking-training. Portraying therapy uncritically as unambiguous good will alienate community viewers."
+        - "Functioning labels: 'high-functioning / low-functioning' are rejected by self-advocates as inaccurate (functioning varies by day and domain) and harmful (high = needs dismissed, low = abilities dismissed). Community and DSM-5 usage trends toward support-needs language."
+        - "Cure vs acceptance: some parents and researchers pursue cure/prevention; the neurodiversity movement holds autism is a disability AND an identity to accommodate, not eliminate."
+        - "Symbols: the puzzle piece and 'light it up blue' are strongly disliked by much of the autistic community; the gold or rainbow infinity symbol is preferred."
+    sources:
+        - title: About Autism — Autistic Self Advocacy Network
+          url: https://autisticadvocacy.org/about-asan/about-autism/
+          type: lived_experience
+        - title: "Identity-First Language (Lydia X. Z. Brown) — ASAN"
+          url: https://autisticadvocacy.org/about-asan/identity-first-language/
+          type: lived_experience
+        - title: "Meltdowns & shutdowns — Embrace Autism (autistic-led)"
+          url: https://embrace-autism.com/meltdowns-and-shutdowns/
+          type: lived_experience
+        - title: "'It feels like holding back something you need to say' — autistic accounts of sensory experiences and stimming"
+          url: https://www.sciencedirect.com/science/article/abs/pii/S1750946721001392
+          type: academic
+        - title: "Beyond self-regulation: autistic experiences and perceptions of stimming (2025)"
+          url: https://journals.sagepub.com/doi/10.1177/27546330241311096
+          type: academic
+        - title: Why Autistic Girls Are Often Missed — Child Mind Institute
+          url: https://childmind.org/article/autistic-girls-overlooked-undiagnosed-autism/
+          type: clinical
+        - title: "The experiences of late-diagnosed women with autism (Bargiela et al.)"
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5040731/
+          type: academic
+        - title: Inauthentic Autism in the Media — Organization for Autism Research
+          url: https://researchautism.org/blog/inauthentic-autism-in-the-media/
+          type: media_guide
+        - title: Hollywood Disability Inclusion Toolkit — RespectAbility
+          url: https://www.respectability.org/inclusion-toolkits/
+          type: media_guide
+        - title: "Representation of autism in fictional media: systematic review"
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10576905/
+          type: academic
+        - title: "Identity-first vs person-first language preferences: systematic review (2025)"
+          url: https://link.springer.com/article/10.1007/s10803-025-07174-3
+          type: academic
+
+  - id: adhd
+    summary: >
+      From the inside, ADHD is not a lack of attention but a lack of steering — attention
+      goes where interest, novelty, challenge, or urgency pull it, and willpower alone
+      cannot redirect it. The same brain that loses its third water bottle this month can
+      lock onto a fascinating project for six hours straight. Living with it as a kid
+      means hearing thousands of corrections ("sit still," "you're not trying," "where's
+      your homework") and slowly absorbing the message that you are lazy or broken when
+      you are neither.
+    trait_repertoire:
+      - trait: three presentations, one diagnosis
+        description: >
+          Hyperactive-impulsive (moving, blurting, climbing), inattentive (quiet,
+          dreamy, disorganized, "lost in the fog"), and combined. The inattentive kid —
+          disproportionately often a girl — is the one nobody refers for evaluation
+          because she isn't disruptive, just "spacey" and underachieving.
+        variation: >
+          Presentation is a starting point, not a personality; two combined-type kids
+          can look nothing alike. Presentation labels can also change over a childhood.
+      - trait: presentation shifts with age
+        description: >
+          The 5-year-old who climbs furniture and narrates everything often becomes the
+          15-year-old who looks calm but describes a motor inside that never switches
+          off — external hyperactivity converts to internal restlessness, foot-jiggling,
+          pen-clicking, and a racing mind at bedtime.
+        variation: >
+          Inattentive symptoms tend to persist while visible hyperactivity fades; some
+          teens stay outwardly bouncy, and some kids were never outwardly hyper at all.
+      - trait: hyperfocus
+        description: >
+          The flip side of distractibility — total, time-erasing absorption in something
+          interesting (a game, drawing, a project), hard to enter on command and hard to
+          exit; the child genuinely does not hear their name being called. Community
+          writers describe it as both superpower and trap.
+        variation: >
+          Nearly universal in some form, but the objects differ; adults often refuse to
+          believe a child "can't have ADHD" because they can focus on Minecraft for hours.
+      - trait: time blindness
+        description: >
+          Time exists in two flavors — "now" and "not now." Five minutes and an hour
+          feel the same; deadlines are invisible until they are emergencies; chronic
+          lateness happens despite genuine care and effort. Waiting is physically hard.
+        variation: >
+          Some kids compensate early with alarms and rigid schedules (often anxious
+          high-achievers); others are perpetually blindsided by consequences.
+      - trait: working memory gaps
+        description: >
+          Walking upstairs for shoes and returning with a toy and no shoes; losing the
+          thread mid-sentence; forgetting the homework that is completed and in the
+          backpack. The information isn't refused, it evaporates.
+        variation: >
+          Severity varies; some kids build elaborate external memory systems (notes on
+          hands, stacking objects by the door) surprisingly young.
+      - trait: emotional intensity
+        description: >
+          Feelings arrive at full volume with no dimmer — rage, despair, and delight all
+          flash-flood and often pass just as fast. Emotional dysregulation is one of the
+          most impairing and least-portrayed parts of childhood ADHD.
+        variation: >
+          Some kids explode outward (slamming doors, storming off), others implode into
+          tears or self-loathing; recovery speed is often startlingly quick, which adults
+          misread as the feeling having been fake.
+      - trait: rejection sensitivity
+        description: >
+          Perceived criticism or exclusion lands as physical pain — community language
+          calls it rejection sensitive dysphoria. Years of correction prime the child to
+          hear "you're bad" inside neutral feedback; a gentle note from a favorite
+          teacher can wreck an afternoon. Qualitative research finds withdrawal, masking,
+          and bodily distress at its core.
+        variation: >
+          Ranges from mild wobble to the dominant emotional fact of a kid's life; some
+          respond by people-pleasing and perfectionism, others by preemptively rejecting
+          everyone first ("I didn't want to be in your group anyway").
+      - trait: impulsivity
+        description: >
+          Acting on the thought as it arrives — blurting answers, interrupting, grabbing,
+          risky stunts, saying the unsayable thing. The gap between impulse and action
+          that other brains have simply isn't there yet; remorse afterwards is real and
+          immediate.
+        variation: >
+          Fades or internalizes with age for many (becoming impulsive spending or
+          blurted texts); inattentive-presentation kids may show almost none.
+      - trait: executive chaos
+        description: >
+          The backpack of doom, the desk avalanche, the twelve unfinished projects.
+          Initiating boring tasks feels like pushing a boulder ("I want to do it and I
+          physically cannot start"); this is task paralysis, not defiance.
+        variation: >
+          Some kids are messy everywhere; others keep one domain (their collection,
+          their game inventory) in immaculate order because interest powers organization.
+      - trait: variability day to day
+        description: >
+          The defining cruelty — the child who did it perfectly Tuesday cannot do it
+          Thursday, so adults conclude effort is the variable. "You did it before" is
+          the sentence every ADHD kid learns to dread. Consistency is the impairment.
+        variation: >
+          Sleep, interest, novelty, and emotional weather all move the needle; some kids
+          learn to surf their own variability by their teens, most just get blamed for it.
+      - trait: sensory and stimulation seeking
+        description: >
+          Boredom is aversive to the point of pain; the understimulated ADHD brain
+          manufactures stimulation — humming, tipping chairs, poking siblings, daredevil
+          play, provoking drama. Background noise or fidgeting can genuinely improve focus.
+        variation: >
+          Strongest in hyperactive presentations; some inattentive kids seek stimulation
+          entirely inside their own heads through elaborate daydream worlds.
+      - trait: sleep problems
+        description: >
+          The brain switches on at bedtime — racing thoughts, revenge bedtime
+          procrastination, difficulty waking. Chronic sleep debt then amplifies every
+          other symptom next day.
+        variation: >
+          Very common but not universal; medication timing can help or worsen it.
+    by_age:
+      preschool:
+        - Motor-driven and full-body — running instead of walking, climbing everything, leaving circle time, grabbing toys; diagnosis this early usually requires severity, and hyperactive-presentation boys dominate referrals.
+        - Emotional storms are big and fast (rage to sunshine in minutes); transitions and waiting are flashpoints.
+        - Inattentive preschoolers are essentially invisible — dreamy, slow to dress, "off with the fairies" — and will not be flagged for years.
+      elementary:
+        - School demands (sit, wait, finish, remember) collide with the brain head-on; this is the peak diagnosis window. Homework becomes a nightly battlefield of task paralysis and lost worksheets.
+        - The correction-avalanche years — the child hears vastly more negative feedback than peers, and self-esteem damage and rejection sensitivity take root ("I'm the bad kid," "I'm stupid").
+        - Friendship friction appears — interrupting, rule-breaking in games, missing social cues from inattention; the class clown role is often deliberate reputation management.
+      teen:
+        - Hyperactivity goes underground into restlessness and risk appetite (speed, substances, impulsive decisions) while organizational demands explode — multiple teachers, long-term projects, no one packing your bag.
+        - Missed deadlines and "wasted potential" lectures pile up; bright ADHD teens who coasted early often hit a wall when effort must be self-directed. Masking and exhaustion look like laziness or depression.
+        - Emotional intensity plus adolescence is a volatile mix — RSD makes social media brutal; girls especially get diagnosed only now, after anxiety or an eating disorder sends them to a clinician who looks deeper.
+    co_occurrence:
+      - autism (AuDHD), learning disabilities (dyslexia, dysgraphia, dyscalculia)
+      - anxiety and depression (very common by adolescence, often secondary to years of negative feedback)
+      - oppositional defiant disorder label (frequently entangled with unrecognized ADHD frustration)
+      - sleep disorders; sensory processing differences
+      - tics and Tourette syndrome in a minority
+    portrayal:
+      do:
+        - Show the effort — the audience should see the kid trying hard and failing anyway, so variability reads as neurology instead of laziness.
+        - Include hyperfocus and creativity, not just distraction; let the ADHD kid be the one who solves the problem via an association nobody else made.
+        - Show the inner monologue (racing thoughts, the shame spiral after blurting) so impulsivity has interiority.
+        - Portray inattentive-type kids, especially girls — the quiet daydreamer facing the window is the representation gap.
+        - Show supports working without being magic — alarms, body-doubling, a teacher who lets the kid stand, medication as one unremarkable tool among several if depicted.
+        - Let the character genuinely like parts of their brain; community voices consistently describe both grief and gifts.
+      avoid:
+        - ADHD as comic relief only — the chaotic funny sidekick whose forgetfulness exists solely for jokes and who has no inner life or pain about it.
+        - The "just needs discipline" arc where stricter parenting or trying harder fixes the symptoms.
+        - Equating ADHD with stupidity or low ambition; also avoid the opposite "it's a superpower, period" gloss that erases real impairment.
+        - Medication as either zombie-maker or magic fix; both extremes misrepresent most kids' experience.
+        - Making the ADHD kid always male, always hyperactive, always disruptive.
+        - Treating emotional outbursts as pure brattiness with no neurological context and no repair scene afterwards.
+    strengths:
+        - creativity and divergent association (many ideas, unexpected connections)
+        - hyperfocus-powered depth and productivity on chosen work
+        - energy, spontaneity, and infectious enthusiasm
+        - crisis competence — urgency finally supplies the missing activation, and some ADHD kids are at their calmest and best in genuine emergencies
+        - resilience and humor built from surviving constant course-correction
+        - strong justice streak and empathy for other kids who get in trouble
+    contested:
+        - "Superpower framing: some community figures embrace 'ADHD is a superpower'; many others (including clinicians and adults with ADHD) find it toxic-positivity that denies impairment. 'Both gift and disability' is the safest honest ground."
+        - "Rejection sensitive dysphoria: hugely resonant community term, not a formal diagnosis; some researchers dispute it as a distinct construct while lived-experience reports are consistent and strong."
+        - "Medication: stimulants are first-line, effective, and stigmatized; families genuinely disagree, and 'overmedicated kids' discourse coexists with severe underdiagnosis in girls and children of color."
+        - "Naming: 'ADHD' is criticized even inside the community as misnaming an interest-regulation difference as an attention deficit; 'ADHDer' and 'neurospicy' are common informal identity terms some love and some hate."
+    sources:
+        - title: "How to ADHD (Jessica McCabe) — YouTube channel and book"
+          url: https://www.youtube.com/c/HowtoADHD
+          type: lived_experience
+        - title: "Jessica McCabe interview on ADHD strengths and self-acceptance — ADDitude"
+          url: https://www.additudemag.com/how-to-adhd-jessica-mccabe-interview/
+          type: lived_experience
+        - title: "The lived experience of rejection sensitivity in ADHD — qualitative study, PLOS One"
+          url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314669
+          type: academic
+        - title: "ADHD in adults (symptom change with age) — CDC"
+          url: https://www.cdc.gov/adhd/about/adhd-in-adults.html
+          type: clinical
+        - title: "Persistence of parent-reported ADHD symptoms from childhood through adolescence — CDC"
+          url: https://archive.cdc.gov/www_cdc_gov/ncbddd/adhd/features/community-sample.html
+          type: clinical
+        - title: "Attention-Deficit/Hyperactivity Disorder: What You Need to Know — NIMH"
+          url: https://www.nimh.nih.gov/health/publications/attention-deficit-hyperactivity-disorder-what-you-need-to-know
+          type: clinical
+        - title: "Why hyperactivity becomes inner restlessness with age — ADHD Solutions"
+          url: https://www.adhdsolutionstherapy.com/blog/hyperactivity-inner-restlessness-adhd
+          type: clinical
+
+  - id: anxiety
+    summary: >
+      From the inside, childhood anxiety is a body problem as much as a mind problem — a
+      stomach that hurts every school morning, a heart that races before the spelling
+      test, a brain that generates "what if" disasters on loop. Young children usually
+      cannot name the feeling as worry; they just know their tummy hurts, they can't
+      sleep, and everything feels safer if Mom stays. Anxiety is the most common mental
+      health condition in children and one of the most treatable.
+    trait_repertoire:
+      - trait: somatic complaints
+        description: >
+          Stomachaches, headaches, nausea, dizziness, fatigue — real physical pain with
+          an emotional engine, classically worse on school mornings and gone by Saturday.
+          The child is not faking; the body is where a child's anxiety talks.
+        variation: >
+          The dominant presentation in younger kids and in families or cultures where
+          feelings aren't discussed; some anxious kids have zero somatic symptoms and
+          are pure worriers.
+      - trait: avoidance
+        description: >
+          The signature behavior — refusing sleepovers, dodging class presentations,
+          school refusal, quitting the team. Each avoidance brings instant relief and
+          feeds the anxiety long-term, which is why accommodation by loving adults can
+          accidentally grow the problem.
+        variation: >
+          Ranges from subtle (always "forgetting" gym clothes) to total (missed months
+          of school); the feared thing varies by subtype — separation, social judgment,
+          specific phobia, or everything (generalized).
+      - trait: reassurance seeking
+        description: >
+          Asking the same "but what if" question dozens of times ("You'll pick me up,
+          right? But what if you're late?"), needing repeated confirmation that no one is
+          sick, mad, or leaving. The relief from each answer lasts minutes.
+        variation: >
+          Very common in generalized and separation anxiety; socially anxious kids may
+          instead go quiet and never ask anything.
+      - trait: irritability and anger
+        description: >
+          Cornered-animal behavior — snapping, storming, raging at homework, exploding
+          when pushed toward a feared thing. Anxiety in children frequently wears an
+          anger costume, and gets punished as defiance.
+        variation: >
+          More common in boys and in kids without emotion vocabulary; the tell is that
+          the "defiance" clusters around specific triggers.
+      - trait: perfectionism
+        description: >
+          Erasing holes through the paper, redoing work, tears over an A-minus, refusing
+          to start what can't be done perfectly (procrastination as fear). The engine is
+          catastrophic overestimation of what a mistake means.
+        variation: >
+          The high-achieving anxious kid is often invisible because symptoms look like
+          virtue; teachers describe them as "a joy" while the child unravels at home.
+      - trait: sleep disruption
+        description: >
+          The worry brain switches on in the dark — bedtime stalling, needing a parent
+          present, nightmares, middle-of-the-night migrations to parents' beds long past
+          the typical age.
+        variation: >
+          Nearly universal in anxious kids in some form; content of night fears is
+          age-typical (monsters young, social replay and dread in teens).
+      - trait: clinging and separation distress
+        description: >
+          Shadowing a parent room to room, panic at drop-off, refusing babysitters,
+          fear that something terrible will happen to the parent while apart.
+          Developmentally normal in toddlers; a disorder when intensity and age don't match.
+        variation: >
+          Peak presentation in preschool-elementary; in teens it can look like constant
+          texting-for-contact instead of physical clinging.
+      - trait: social scanning and silence
+        description: >
+          Watching before joining, rehearsing sentences before speaking, dreading being
+          looked at, hating recorded voice or photos. In its strongest childhood form,
+          selective mutism — speaking freely at home and not one word at school.
+        variation: >
+          Distinct from autistic social difference — the socially anxious child usually
+          reads cues fine and fears judgment; some kids are anxious AND autistic, which
+          compounds.
+      - trait: rigid safety behaviors
+        description: >
+          Lucky objects, fixed routines, sitting near exits, only eating "safe" foods,
+          needing to know every detail of the plan in advance. Control is the antidote
+          the child invents for unpredictability.
+        variation: >
+          Overlaps visually with OCD and autistic routine-need; the function (dread
+          management) is the differentiator, and only intensity separates quirk from disorder.
+      - trait: panic
+        description: >
+          Sudden waves of racing heart, breathlessness, chest pain, trembling, and doom —
+          often misread by the child and family as a medical emergency. More typical of
+          older children and teens.
+        variation: >
+          Many anxious kids never panic; those who do may then develop fear-of-the-fear,
+          avoiding wherever the last attack happened.
+    by_age:
+      preschool:
+        - Almost entirely body and behavior — clinging, crying at separation, stomachaches, sleep battles, fear of dogs/dark/monsters/loud noises; the child cannot say "I'm anxious."
+        - Regression under stress is common — baby talk, toileting accidents, thumb-sucking returning after a move or new sibling.
+        - Watch for the freeze response — the preschooler who goes silent and still in new settings rather than crying.
+      elementary:
+        - Worry gets verbal and specific — grades, tornadoes, burglars, a parent dying; reassurance-seeking loops and perfectionism appear alongside continuing somatic complaints (the school nurse's frequent flyer).
+        - School refusal becomes the highest-stakes battleground; Sunday-night dread and Monday-morning stomachaches form a legible weekly rhythm.
+        - Kids this age start hiding worry out of embarrassment — parents often learn the extent of it only at bedtime confessionals.
+      teen:
+        - Social anxiety surges — fear of humiliation, avoiding presentations, eating in public, or posting; friend-group dynamics and being perceived become the dominant fear content.
+        - Panic attacks emerge; teens self-manage in hidden ways ranging from skipped classes and canceled plans to substance use.
+        - Overload from academic stakes plus social media plus sleep debt makes teen anxiety look like irritability, procrastination, or "laziness" from outside.
+    co_occurrence:
+      - depression (especially in teens; anxiety typically comes first developmentally)
+      - ADHD and autism (anxiety is the most common co-occurring condition for both)
+      - somatic symptom presentations, recurrent abdominal pain
+      - OCD and tic disorders; eating disorders in adolescents
+      - sleep disorders
+    portrayal:
+      do:
+        - Dramatize the body — show the stomachache and the racing heart, not just fretful dialogue; for kids that IS the anxiety.
+        - Show the logic from inside — the audience should feel why avoiding feels rational and how relief-now feeds fear-later.
+        - Let coping be learnable and imperfect — a breathing trick that helps some, a brave attempt that half-works; competence grows in increments.
+        - Show help-seeking as strength, and adults responding well when told.
+        - Keep the anxious kid a full character with humor, opinions, and courage in other domains — anxious is not the same as weak or fragile.
+        - Show that gentle exposure (doing the scary thing with support) works better than either forcing or total protection — this is also the evidence-based treatment story.
+      avoid:
+        - Playing the anxious kid purely for laughs (the neurotic scaredy-cat sidekick whose fear is the whole joke).
+        - Instant cures — one pep talk or one brave moment dissolving an anxiety disorder.
+        - Framing accommodation-forever as love's happy ending, or framing "just face it" bootstrapping as the fix.
+        - Making the anxiety inexplicable or random; give it internal logic without needing a single traumatic origin scene.
+        - Conflating shyness with anxiety disorder — quiet, introverted kids are not automatically disordered.
+        - Depicting panic attacks inaccurately as fainting-and-hospital melodrama.
+    strengths:
+        - conscientiousness, preparation, and reliability
+        - keen observation and threat-spotting that reads as perceptiveness
+        - deep empathy for others' distress; anxious kids often comfort well
+        - vivid imagination (the same machinery that generates what-ifs powers stories)
+        - real, visible courage — an anxious kid doing the scary thing is braver than a fearless one doing it
+    contested:
+        - "Accommodation: families and clinicians disagree in practice about how much to accommodate (letting the child skip, sleep in parents' bed); evidence-based programs (e.g., SPACE) coach reducing accommodation supportively, which some parents experience as harsh."
+        - "Medication for pediatric anxiety (SSRIs) is evidence-supported and still stigmatized; therapy-first vs combined-treatment debates are live in families."
+        - "Overdiagnosis discourse: some argue normal childhood fear is being pathologized ('anxiety generation'), while clinicians point to genuinely rising prevalence and long waits for care; both views appear in good faith."
+    sources:
+        - title: "Anxiety and depression in children — CDC"
+          url: https://www.cdc.gov/children-mental-health/about/about-anxiety-and-depression-in-children.html
+          type: clinical
+        - title: "Anxious stomachaches and headaches — Child Mind Institute"
+          url: https://childmind.org/article/anxious-stomach-aches-and-headaches/
+          type: clinical
+        - title: "Somatic complaints in anxious youth"
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3989467/
+          type: academic
+        - title: "What does childhood anxiety look like? Probably not what you think — CHC"
+          url: https://www.chconline.org/resourcelibrary/what-does-childhood-anxiety-look-like-probably-not-what-you-think/
+          type: clinical
+
+  - id: depression
+    summary: >
+      From the inside, childhood depression often isn't sadness — it's irritability,
+      boredom that swallows everything, and a gray filter over things that used to be
+      fun. Kids describe being tired all the time, hating themselves for reasons they
+      can't explain, and snapping at people they love. Because it wears an "attitude
+      problem" costume, depressed children are routinely mislabeled lazy, difficult, or
+      dramatic — and real childhood depression exists even in preschoolers, though it is
+      rare before puberty and rises sharply after it.
+    trait_repertoire:
+      - trait: irritability as the mood
+        description: >
+          The child version of depressed mood is often cranky, touchy, and angry rather
+          than tearful — DSM criteria explicitly allow irritable mood in place of sad
+          mood for children and adolescents. Door-slamming and constant conflict can be
+          the visible surface of despair.
+        variation: >
+          Some kids do present with classic visible sadness and crying; many alternate.
+          Irritability-forward presentations are most likely to be misread as defiance.
+      - trait: anhedonia
+        description: >
+          The reliable core sign — things that used to light the child up (the team, the
+          game, the best friend, dessert) stop being fun. "Bored" and "I don't care"
+          become default answers; quitting activities without replacing them.
+        variation: >
+          May be total or patchy — a teen may still game for hours (numbing, not joy)
+          while dropping everything social; loss of pleasure can hide inside "growing
+          out of" things too fast.
+      - trait: somatic complaints
+        description: >
+          Especially in younger children — stomachaches, headaches, vague pain, frequent
+          nurse visits — because a young child lacks the vocabulary and self-observation
+          to report mood.
+        variation: >
+          Overlaps heavily with anxiety presentation; in depression the complaints
+          come with flatness and withdrawal rather than fear.
+      - trait: fatigue and slowing
+        description: >
+          Exhaustion no sleep fixes, heavy limbs, slowed speech and movement, or the
+          opposite — restless agitation. Mornings can be the worst; getting out of bed
+          becomes a genuine daily battle.
+        variation: >
+          Teens may sleep 12 hours and stay tired (hypersomnia) or lie awake at 3am;
+          either direction of sleep change counts.
+      - trait: self-criticism and guilt
+        description: >
+          A running inner narration of "I'm stupid, I ruin everything, they'd be better
+          off without me." Depressed kids over-claim blame for family stress, divorce,
+          or team losses, and dismiss praise as pity or error.
+        variation: >
+          Verbal kids may say these things out loud (take it seriously); others show it
+          only as destroying their own artwork or refusing to try.
+      - trait: withdrawal
+        description: >
+          Retreating from friends, family dinners, group chats; the bedroom becomes a
+          cave. Withdrawal from FRIENDS is a bigger red flag than withdrawal from family,
+          which is developmentally normal for teens.
+        variation: >
+          Some depressed kids maintain a full social calendar as performance and
+          collapse privately — high-functioning presentation is real in teens.
+      - trait: academic slide
+        description: >
+          Concentration and decision-making fog out; grades drop, homework goes missing,
+          reading the same page five times. Often the first thing adults notice, and
+          often attributed to laziness or phones.
+        variation: >
+          Perfectionist kids may hold grades steady at enormous invisible cost until a
+          sudden collapse.
+      - trait: appetite and weight changes
+        description: >
+          Eating much less or much more; in children, failure to make expected weight
+          gains counts. Food loses taste, or becomes comfort.
+        variation: >
+          Direction varies by kid; entangled with eating-disorder risk in adolescents.
+      - trait: sensitivity to rejection and conflict
+        description: >
+          Small slights confirm the inner verdict ("see, everyone hates me"); friendship
+          wobbles trigger disproportionate despair. Interpersonal loss is a common
+          precipitant of depressive episodes in youth.
+        variation: >
+          Interacts with ADHD rejection sensitivity and with bullying, which is both
+          cause and consequence of withdrawal.
+      - trait: hopelessness about the future
+        description: >
+          The distinguishing teen feature — inability to imagine things improving, loss
+          of interest in plans, "what's the point" reasoning. In younger children this
+          appears as themes of death or worthlessness in play and drawings.
+        variation: >
+          Hopelessness is the highest-alarm trait and the one adults should never write
+          off as teen dramatics.
+      - trait: risk-taking and numbing
+        description: >
+          Teen depression can look reckless rather than sad — substances, unsafe
+          situations, rage, self-harm as feeling-regulation. Especially in boys, acting
+          out replaces speaking out.
+        variation: >
+          Self-harm is distinct from suicidality though correlated; portray both with
+          extreme care (see portrayal rules) or keep offscreen.
+    by_age:
+      preschool:
+        - Rare but documented (validated research by Luby and colleagues) — looks like joylessness in play, excessive guilt in games, irritability, somatic complaints, and regression rather than stated sadness.
+        - Play themes carry the content — death, punishment, and "bad" characters recurring in pretend play.
+        - Almost always entangled with environment (loss, disruption, caregiver depression); a preschool storyline should center caregiving context.
+      elementary:
+        - Irritable-plus-somatic presentation dominates — the kid who is always in trouble, always at the nurse, and no fun anymore; school refusal and friend loss follow.
+        - The child may say alarming things plainly ("I wish I wasn't here," "I'm the worst kid") without adult-style filtering — kids this age can and do have suicidal thoughts, and disclosures must be taken seriously in-story.
+        - Watch for the quiet version too — the well-behaved kid who fades, stops raising a hand, and slips through unnoticed.
+      teen:
+        - Prevalence jumps sharply with puberty, roughly doubling in girls versus boys; presentation adds hopelessness, self-loathing, sleep-all-day fatigue, and withdrawal from friends.
+        - Masks are common — "I'm fine," humor, achievement, or anger; friends usually know before adults do, which is a storytelling opportunity (peer notices, tells trusted adult, that works).
+        - Recovery is realistic and typical with support — therapy, sometimes medication, time, reconnection; depicting treatment as normal and effective is both accurate and protective.
+    co_occurrence:
+      - anxiety disorders (the most common partner, often preceding depression)
+      - ADHD (demoralization from years of negative feedback is a known pathway)
+      - autism (depression risk rises in masked, excluded autistic teens)
+      - substance use in adolescents; eating disorders (especially girls)
+      - trauma, loss, bullying, and family conflict as context rather than co-diagnosis
+    portrayal:
+      do:
+        - Show irritability and boredom as the face of child depression, and let another character (or the audience) gradually decode it — that decoding is the accurate arc.
+        - Show help-seeking working — telling a friend, parent, counselor, or crisis line leads to real support; per national entertainment guidelines this is the single most protective story choice.
+        - Portray recovery as gradual and non-linear (good days returning slowly) rather than a single cathartic cure scene.
+        - Keep the character's identity bigger than the diagnosis — talents, humor, and relationships persist through the gray filter and are part of the way back.
+        - If suicidal ideation appears, follow safe-messaging guidance — show the character being asked directly and honestly, show adults responding calmly and competently, and include a real resource (in the US, the 988 Suicide & Crisis Lifeline) where the medium allows.
+        - Consult mental-health messaging experts and people with lived experience for any storyline touching self-harm or suicide.
+      avoid:
+        - Any depiction or description of suicide method or means — this is the firmest line in every media guideline (Samaritans, Action Alliance, AFSP); do not show method, means acquisition, or a death scene.
+        - Presenting suicide or self-harm as a solution, as romantic, as effective revenge, or as the thing that finally makes others care ("13 Reasons Why" is the canonical cautionary example).
+        - Simplistic single-cause explanations (one breakup, one bad grade); depression is multi-causal and usually builds.
+        - The "snap out of it" arc — love, a makeover, or one great day curing depression.
+        - Equating depression with weakness, or making the depressed kid solely a burden that exhausts the protagonist.
+        - Using "committed suicide" framing or treating disclosure as betrayal; model "died by suicide" language and show that telling an adult is loyalty, not snitching.
+    strengths:
+        - depth, self-awareness, and emotional insight beyond their years once they have language for it
+        - profound empathy for others who are struggling; often the friend others confide in
+        - creativity — many kids channel the gray filter into art, music, and writing
+        - resilience and hard-won coping wisdom after recovery; survived-it perspective
+        - honesty about hard things that cuts through social pretense
+    contested:
+        - "Medication for youth (SSRIs): evidence-supported and carries an FDA boxed warning discussion; families genuinely split, and both 'pills as poison' and 'pills as panacea' portrayals will misfire with some audience."
+        - "Overdiagnosis vs crisis framing: 'social media made teens sad' discourse is contested; researchers disagree about causation while agreeing prevalence rose. Avoid making one hot-take theory the story's thesis."
+        - "'High-functioning depression' and self-diagnosis language via TikTok are embraced by teens and criticized by clinicians; a teen character using such language is realistic either way."
+        - "Whether preschool depression should be diagnosed at all remains debated in clinical circles despite validation research."
+    sources:
+        - title: "Anxiety and depression in children — CDC"
+          url: https://www.cdc.gov/children-mental-health/about/about-anxiety-and-depression-in-children.html
+          type: clinical
+        - title: "Depressive disorders in children and adolescents — Merck Manual Professional"
+          url: https://www.merckmanuals.com/professional/pediatrics/psychiatric-disorders-in-children-and-adolescents/depressive-disorders-in-children-and-adolescents
+          type: clinical
+        - title: "Major depressive disorder in children and adolescents (review)"
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6213890/
+          type: academic
+        - title: "Early childhood depression (Luby)"
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3184299/
+          type: academic
+        - title: "National Recommendations for Depicting Suicide — National Action Alliance for Suicide Prevention"
+          url: https://theactionalliance.org/messaging/entertainment-messaging/national-recommendations
+          type: media_guide
+        - title: "Guidance for portrayals of suicide and self-harm in drama — Samaritans"
+          url: https://www.samaritans.org/about-samaritans/media-guidelines/guidance-portrayals-suicide-and-self-harm-drama/
+          type: media_guide
+        - title: "Ethical reporting and portrayal guidelines — American Foundation for Suicide Prevention"
+          url: https://afsp.org/ethicalreporting/
+          type: media_guide
